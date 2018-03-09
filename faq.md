@@ -2,17 +2,17 @@
 title: FAQ
 navigation_weight: 2
 ---
-#Frequently Asked Questions
+# Frequently Asked Questions
 
-##Blockchain and Cryptocurrency
+## Blockchain and Cryptocurrency
 
 What is a blockchain?
 
-##Stratis
+## Stratis
 
 What is Stratis?
 
-##Development on Stratis
+## Development on Stratis
 
 I'm a developer. How can I get involved?
 

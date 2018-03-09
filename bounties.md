@@ -3,6 +3,6 @@ title: Bounties
 navigation_weight: 5
 ---
 
-#Bounties
+# Bounties
 
-##Currently Available Bounties:
+## Currently Available Bounties:

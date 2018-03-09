@@ -2,10 +2,16 @@
 title: Learning
 navigation_weight: 3
 ---
-#Learning Resources
+# Learning Resources
 
-##Official Stratis team produced resources
+## Official Stratis team produced resources
 
-##SDF produced articles
+## SDF produced articles
 
-##Community produced resources
+{% assign learning_posts = site.posts | where: "categories","learning" | sort: 'post_importance' %}
+{% for post in learning_posts %}
+### [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+{{ post.excerpt }}...
+{% endfor %}
+
+## Community produced resources
