@@ -2,24 +2,33 @@
 ---
 
 @import "{{ site.theme }}";
-nav.main-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    float: right;
-}
-
-nav.main-nav li,
-nav.main-nav a {
-    display: inline-block;
-}
-
-nav.main-nav li a {
-    padding: 10px;
-}
-
-a.active {
-  color: #FFE000;
-}
 
 .page-header { color: #fff; text-align: center; background-color: #2cb5e8; background-image: linear-gradient(120deg, #1fc8db,#2cb5e8); }
+
+nav.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav.main-nav ul li {
+    float: left;
+}
+
+nav.main-nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.main-nav ul li a:hover:not(.active) {
+    background-color: #000;
+}
+
+nav.main-nav ul li a.active {
+    background-color:#4CAF50;
+}
