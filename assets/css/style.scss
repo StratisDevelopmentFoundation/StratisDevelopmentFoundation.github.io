@@ -10,7 +10,7 @@ nav.main-nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #f3f3f3;
 }
 
 nav.main-nav ul li {
@@ -18,17 +18,18 @@ nav.main-nav ul li {
 }
 
 nav.main-nav ul li a {
-    display: inline-block;
-    color: white;
+    display: block;
+    color: 666;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav.main-nav ul li a:hover:not(.active) {
-    background-color: #000;
+    background-color: #ddd;
 }
 
 nav.main-nav ul li a.active {
-    background-color:#4CAF50;
+    color: white;
+    background-color:#008CBA;
 }
