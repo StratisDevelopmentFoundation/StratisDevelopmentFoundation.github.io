@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+nav.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+nav.main-nav li,
+nav.main-nav a {
+    display: inline-block;
+}
+
+nav.main-nav li a {
+    padding: 10px;
+}
+
+a.active {
+  color: #FFE000;
+}

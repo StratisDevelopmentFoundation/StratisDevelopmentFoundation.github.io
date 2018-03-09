@@ -2,4 +2,4 @@
 title: About
 navigation_weight: 1
 ---
-about.html content
+about content
