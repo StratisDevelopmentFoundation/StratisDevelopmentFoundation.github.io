@@ -17,6 +17,13 @@ navigation_weight: 3
 [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
 
+## SDF produced code samples
+
+{% assign code_samples = site.posts | where: "categories","code_sample" | sort: 'post_importance' %}
+{% for code_sample in code_samples %}
+[{{ code_sample.title }}]({{ site.baseurl }}{{ code_sample.url }})
+{% endfor %}
+
 ## Community produced resources
 
 [Stratis Price and Staking Information](https://stratispool.com/)

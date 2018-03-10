@@ -26,4 +26,4 @@ The bounty awards will be specified in USD. The conversion rate from USD to the 
 
 ## Use of submissions
 
-By creating a pull request on github to our github account, you are authorizing the SDF to use submission in any way they choose, whether or not a bounty is awarded.
+By creating a pull request on github to our github account, you are authorizing the SDF to use your submission in any way they choose, whether or not a bounty is awarded.
