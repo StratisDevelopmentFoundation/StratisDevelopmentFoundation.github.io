@@ -14,18 +14,22 @@ If the data written follows a specific format (as specified by a protocol) and i
 
 One simple example is a voting protocol. One client could write to the blockchain some text that looks like this:
 
-> Voting Protocol Version 1.0
-> Question: What is the best flavor of ice cream?
-> Answers:
-> 1 - Chocolate
-> 2 - Strawberry
-> 3 - Other (Specify)
+```
+Voting Protocol Version 1.0
+Question: What is the best flavor of ice cream?
+Answers:
+1 - Chocolate
+2 - Strawberry
+3 - Other (Specify)
+```
 
 Client software running on other computers that is aware of this voting protocol would be scanning for messages of this format in the blockchain. The user of that software would be notified of the vote, and they could write to the blockchain a response that would be seen by all users of the software. Their response might look like:
 
-> Voting Protocol Version 1.0
-> Response to Question: What is the best flavor of ice cream?
-> Answers: 3 - Other - Pineapple
+```
+Voting Protocol Version 1.0
+Response to Question: What is the best flavor of ice cream?
+Answers: 3 - Other - Pineapple
+```
 
 Keep in mind that these example texts are human readable - In an actual implementation, these messages would be in a format that is much more compressed.
 
