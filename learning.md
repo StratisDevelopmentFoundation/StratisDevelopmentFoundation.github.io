@@ -19,6 +19,8 @@ navigation_weight: 3
 
 ## SDF produced code samples
 
+All code samples, unless otherwise specified, are written in C#
+
 {% assign code_samples = site.posts | where: "categories","code_sample" | sort: 'post_importance' %}
 {% for code_sample in code_samples %}
 [{{ code_sample.title }}]({{ site.baseurl }}{{ code_sample.url }})
