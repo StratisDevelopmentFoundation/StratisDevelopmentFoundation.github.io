@@ -4,27 +4,39 @@ navigation_weight: 2
 ---
 # Frequently Asked Questions
 
-## *Blockchain and Cryptocurrency*
-
-### What is a blockchain?
-
-## *Stratis*
+## *Stratis Overview*
 
 ### What is Stratis?
 
+placeholder
+
 ### What are the advantages of Stratis compared to other blockchains?
+
+placeholder
 
 ## *Development on Stratis*
 
 ### I'm a developer. How can I get involved?
 
-### I'm a representative of a company. How can I contact the Stratis team?
+If you wish to learn more about how to use Stratis, visit our [Learning](/learning.html) page.
+
+If you wish to contribute to the SDF, see our [Bounties](/bounties.html) page.
+
+If you already know what you want to build, and would like to collaborate with members of the SDF to build it, please contact us directly.
+
+### I'm a representative of a company that needs blockchain expertise. How can I contact the Stratis team?
+
+[Official Stratis Contact Page](https://stratisplatform.com/contact-us/)
 
 ## *SDF*
 
 ### How can I trust the sample code provided by the SDF?
 
+Where possible, we will discuss the security implications of using sample code that we provide. However, it is your responsibility to audit the code for any security issues. Please [contact us](/#contact_sdf) directly to discuss any security concerns.
+
 ### How is the SDF funded?
+
+The SDF is funded by members of the Stratis Community.
 
 ### Why is the SDF website so ugly?
 
