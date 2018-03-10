@@ -2,7 +2,7 @@
 title:  "Signing a message and Verifying a message"
 date:   2018-03-09 16:16:01 -0600
 categories: code_sample
-post_importance: 3
+post_importance: 4
 ---
 
 # Signing a message and Verifying a message
@@ -31,6 +31,6 @@ public static bool VerifySignedMessage(string message, string signature, string 
 }
 ```
 
-An article on how to get the private key string is needed. (dumping from aqt wallet, or from a c# code generated wallet)
+An article on how to get the private key string is needed. (dumping from a qt wallet, or from a c# code generated wallet)
 
 An article on how to sign a message from the UI of the QT wallet is needed.
