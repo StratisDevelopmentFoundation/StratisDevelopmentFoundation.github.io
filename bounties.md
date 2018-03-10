@@ -5,7 +5,7 @@ navigation_weight: 5
 
 # Bounties
 
-Process for completing bounties for reward: x
+Process for completing bounties for reward: [Bounty Process](/bountyprocess.html)
 
 ## Currently Available Bounties:
 
@@ -17,13 +17,15 @@ Process for completing bounties for reward: x
 
 * Setting up a Stratis blockchain block explorer on Azure
 
+* How to use github to contribute to the SDF
+
 ### Articles to be improved
 
 {% assign bounty_posts = site.posts | sort: 'bounty_for_improvement' %}
 {% for post in bounty_posts %}
 {% if post.bounty_for_improvement %}
 ### [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-### [edit on github](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/blob/master/{{ post.path }})
+### [Edit on github.com](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/edit/master/{{ post.path }})
 Bounty: ${{ post.bounty_for_improvement }} USD
 {% endif %}
 {% endfor %}
