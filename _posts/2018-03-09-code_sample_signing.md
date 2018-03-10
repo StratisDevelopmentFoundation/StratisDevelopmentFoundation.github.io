@@ -15,7 +15,7 @@ This is a way for someone who has the private keys to an address to prove they h
 
 This is useful in certain authentication scenarios. For example, you could make signing a message from a Stratis address that has at least 100 coins grant access to a Stratis investor group. Or prove that you were the one who made a payment. Or prove that you have access to enough funds to make a large payment.
 
-```C#
+```cs
 // somewhere up above, 'using NBitcoin;'
 
 public static string GetMessageSignature(string message, string privateKeyAsString)
