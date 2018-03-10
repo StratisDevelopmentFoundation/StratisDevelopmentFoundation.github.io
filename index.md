@@ -10,6 +10,6 @@ The Stratis Development Foundation is a community project. Our goal is to make t
 * Funding bounties for creating software and other materials that support development on the Stratis blockchain
 * Creating and maintaining a protocol registry system to help guide development of community applications on the Stratis blockchain
 
-<a name="contact_sdf"></a> Members of the SDF can be contacted through their Discord, by [email](mailto:stratisdevelopmentfoundation@gmail.com), or by Telegram.
+<a name="contact_sdf"></a> Members of the SDF can be contacted by [email](mailto:stratisdevelopmentfoundation@gmail.com), or by [Telegram](https://t.me/joinchat/FM9Hq08rBu9OzIolFOGCyg).
 
 Progress of the software created by the SDF can be tracked on github [here](https://github.com/StratisDevelopmentFoundation/). Feel free to create pull requests.
