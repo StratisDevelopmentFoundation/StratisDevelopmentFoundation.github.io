@@ -28,3 +28,7 @@ private static string GenerateAddressForPayment()
     return AddressString
 }
 ```
+
+## Security Concerns
+
+Care must be taken in the management of private keys that are generated in this way. If written to a database, anyone with access to that database could potentially steal all the money at these addresses. Managing access to stored private keys is beyond the scope of this article, but be aware that anyone who knows the private keys can take the funds.

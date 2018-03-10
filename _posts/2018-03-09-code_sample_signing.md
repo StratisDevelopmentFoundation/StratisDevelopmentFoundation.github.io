@@ -34,3 +34,9 @@ public static bool VerifySignedMessage(string message, string signature, string 
 An article on how to get the private key string is needed. (dumping from a qt wallet, or from a c# code generated wallet)
 
 An article on how to sign a message from the UI of the QT wallet is needed.
+
+## Security Concerns
+
+Signing a message like this does not expose your private keys. However, you should be careful how you are passing your private key as a string to the function. If you hardcode the private key into your program, the code now contains the password to your coins at the assoicated address.
+
+There are no security concerns with verifying a signed message, as it does not involve private keys.
