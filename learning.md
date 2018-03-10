@@ -11,7 +11,6 @@ navigation_weight: 3
 {% assign learning_posts = site.posts | where: "categories","learning" | sort: 'post_importance' %}
 {% for post in learning_posts %}
 ### [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-{{ post.excerpt }}...
 {% endfor %}
 
 ## Community produced resources

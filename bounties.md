@@ -23,6 +23,7 @@ Process for completing bounties for reward: x
 {% for post in bounty_posts %}
 {% if post.bounty_for_improvement %}
 ### [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+### [edit on github](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/blob/master/_posts/2018-03-09-QT-RPC.md{{ page.path }})
 Bounty: ${{ post.bounty_for_improvement }} USD
 {% endif %}
 {% endfor %}
