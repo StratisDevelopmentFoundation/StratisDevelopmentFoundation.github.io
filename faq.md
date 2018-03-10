@@ -8,11 +8,7 @@ navigation_weight: 2
 
 ### What is Stratis?
 
-placeholder
-
-### What are the advantages of Stratis compared to other blockchains?
-
-placeholder
+Stratis is an open source, decentralized cryptocurrency. It is also the name of the company that manages and develops the associated software. Find out more on the official [Stratis company page](https://stratisplatform.com/).
 
 ## *Development on Stratis*
 
@@ -40,4 +36,4 @@ The SDF is funded by members of the Stratis Community.
 
 ### Why is the SDF website so ugly?
 
-I'm not a web developer. If you have skills in this area, please contribute to making the site look better. The code for the website is hosted [here](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io). Use github pull requests to contribute changes to the website.
+If you have skills in this area, please contribute to making the site look better. The code for the website is hosted [here](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io). Use github pull requests to contribute changes to the website.

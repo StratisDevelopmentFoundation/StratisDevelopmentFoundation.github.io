@@ -6,6 +6,10 @@ navigation_weight: 3
 
 ## Official Stratis team produced resources
 
+[Stratis Academy landing page](https://stratisplatform.com/academy/academy-resources/)
+
+[Programming the blockchain in C#](https://programmingblockchain.gitbooks.io/programmingblockchain/content/)
+
 ## SDF produced articles
 
 {% assign learning_posts = site.posts | where: "categories","learning" | sort: 'post_importance' %}
@@ -14,3 +18,7 @@ navigation_weight: 3
 {% endfor %}
 
 ## Community produced resources
+
+[Stratis Price and Staking Information](https://stratispool.com/)
+
+[Stratis Block Explorer](https://chainz.cryptoid.info/strat/)
