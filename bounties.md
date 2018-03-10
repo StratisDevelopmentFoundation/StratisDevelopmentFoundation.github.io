@@ -24,10 +24,20 @@ Process for completing bounties for reward: [Bounty Process](/bountyprocess.html
 {% assign bounty_posts = site.posts | sort: 'bounty_for_improvement' %}
 {% for post in bounty_posts %}
 {% if post.bounty_for_improvement %}
-### [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-### [Edit on github.com](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/edit/master/{{ post.path }})
+* [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) **[Edit on github.com](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/edit/master/{{ post.path }})**
 Bounty: ${{ post.bounty_for_improvement }} USD
 {% endif %}
 {% endfor %}
 
-### Software to be written
+### Software/Tools to be created
+
+* OP_RETURN block explorer
+* Stratis blockchain REST API
+* Signing Messages and verifying signed messages sample code
+
+### Protocols to be written
+
+* Initial protocol specification
+* Voting protocol
+* Human readable address alias protocol
+* Ownership of address attestation protocol
