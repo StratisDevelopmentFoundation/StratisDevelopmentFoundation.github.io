@@ -4,11 +4,11 @@ title: Contributing to the SDF to receive bounties
 
 # Contributing to the SDF to receive bounties
 
-Bounties are offered for performing certain tasks for the SDF. These are awards in the form of the Stratis cryptocurrency. The STRAT coins received for completing the bounties can be exchanged for other crypto currencies at various cryptocurrency exchanges. See [here](https://coinmarketcap.com/currencies/stratis/#markets) for a list of websites that participate in the exchange of STRAT coins for other cryptocurrencies.
+Bounties are offered for performing certain tasks for the SDF. These are awards in the form of the Stratis cryptocurrency.
 
 ## Bounty information request
 
-Asking for clarification on what is needed to complete the bounty is a good idea. You can contact the SDF directly [here](/#contact_sdf) to request clarification for what is needed to complete any given bounty successfully. This may help prevent you from starting a bounty that someone else is already working on.
+Asking for clarification on what is needed to complete the bounty is a good idea. You can contact the SDF directly [here](/#contact_sdf) to request clarification for what is needed to complete any given bounty successfully. This also helps prevent you from starting a bounty that someone else is already working on.
 
 ## Bounty approval process
 
