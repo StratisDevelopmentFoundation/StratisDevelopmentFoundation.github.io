@@ -23,7 +23,7 @@ Process for completing bounties for reward: x
 {% for post in bounty_posts %}
 {% if post.bounty_for_improvement %}
 ### [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-### [edit on github](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/blob/master/_posts/{{ post.path }})
+### [edit on github](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/blob/master/{{ post.path }})
 Bounty: ${{ post.bounty_for_improvement }} USD
 {% endif %}
 {% endfor %}
