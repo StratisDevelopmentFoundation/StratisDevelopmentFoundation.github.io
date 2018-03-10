@@ -12,11 +12,8 @@ Process for completing bounties for reward: [Bounty Process](/bountyprocess.html
 ### Articles to be written
 
 * Setting up the Stratis Full Node for RPC
-
 * Setting up an Azure cloud development environment
-
 * Setting up a Stratis blockchain block explorer on Azure
-
 * How to use github to contribute to the SDF
 
 ### Articles to be improved
