@@ -30,7 +30,6 @@ Bounty: ${{ post.bounty_for_improvement }} USD
 
 * OP_RETURN block explorer
 * Stratis blockchain REST API
-* Signing Messages and verifying signed messages sample code
 
 ### Protocols to be written
 

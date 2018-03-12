@@ -31,4 +31,4 @@ private static string GenerateAddressForPayment()
 
 ## Security Concerns
 
-Care must be taken in the management of private keys that are generated in this way. If written to a database, anyone with access to that database could potentially steal all the money at these addresses. Managing access to stored private keys is beyond the scope of this article, but be aware that anyone who knows the private keys can take the funds.
+Care must be taken in the management of private keys that are generated in this way. If written to a database, anyone with access to that database could potentially steal all the money at these addresses. Managing access to stored private keys is beyond the scope of this article, but be aware that anyone who knows the private keys can take the funds. Furthermore, if the database containing the private keys is destroyed, all money contained in those addresses is lost. Therefore backups are also an important part of properly managing private keys.
