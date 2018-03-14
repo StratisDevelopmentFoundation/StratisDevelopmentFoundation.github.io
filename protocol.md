@@ -44,3 +44,6 @@ By doing this, we hope to enable new use cases for the Stratis blockchain.
 ## Current status of the protocol registry
 
 The format of the protocols is still being developed. The first protocols are being built, and the tools to read and write the data from the blockchain are in development. Estimated release date of the first protocols: March 31st 2018.
+
+More information of protocols that are in progress can be found [here](https://workflowy.com/s/4px.zeWBgj9Dn3):
+
