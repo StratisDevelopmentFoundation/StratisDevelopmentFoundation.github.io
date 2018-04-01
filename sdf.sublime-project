@@ -1,0 +1,25 @@
+{
+    "folders":
+    [
+        {
+            "path": "/",
+            "folder_exclude_patterns": ["_site"],
+        },
+        // {
+        //     "path": "docs",
+        //     "name": "Documentation",
+        //     "file_exclude_patterns": ["*.css"]
+        // }
+    ],
+    // "settings":
+    // {
+    //     "tab_size": 8
+    // },
+    // "build_systems":
+    // [
+    //     {
+    //         "name": "List",
+    //         "shell_cmd": "ls -l"
+    //     }
+    // ]
+}
