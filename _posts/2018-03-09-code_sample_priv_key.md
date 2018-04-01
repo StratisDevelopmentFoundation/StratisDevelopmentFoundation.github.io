@@ -25,7 +25,7 @@ private static string GenerateAddressForPayment()
     var AddressString = privateKey.PubKey.GetAddress(Network.StratisMain).ToString();
     var privateKeyString = privateKey.GetWif(Network.StratisMain).ToWif().ToString();
     //Store the privateKeyString in a database somewhere
-    return AddressString
+    return AddressString;
 }
 ```
 
