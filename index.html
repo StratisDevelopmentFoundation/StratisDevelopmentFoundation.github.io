@@ -1,0 +1,6 @@
+---
+layout: home
+author_profile: false
+---
+{% capture homepage %}{% include_relative _pages/home.md %}{% endcapture %}
+{{ homepage | markdownify }}
