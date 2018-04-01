@@ -3,6 +3,8 @@ title: Contributing to the SDF to receive bounties
 author_profile: false
 permalink: /bountyprocess/
 ---
+# Contributing to the SDF to receive bounties
+
 Bounties are offered for performing certain tasks for the SDF. These are awards in the form of the Stratis cryptocurrency.
 
 ## Bounty information request

@@ -3,6 +3,8 @@ title: Frequently Asked Questions
 author_profile: false
 permalink: /faq/
 ---
+# Frequently Asked Questions
+
 ## *Stratis Overview*
 
 ### What is Stratis?

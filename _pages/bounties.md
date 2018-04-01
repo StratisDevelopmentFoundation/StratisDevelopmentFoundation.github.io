@@ -3,6 +3,8 @@ title: Bounties
 author_profile: false
 permalink: /bounties/
 ---
+# Bounties
+
 Process for completing bounties for reward: [Bounty Process](/bountyprocess/)
 
 ## Currently Available Bounties:
