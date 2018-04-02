@@ -265,7 +265,7 @@ defaults:
       author_profile: false
       read_time: false
       comments: # true
-      share: false
+      share: true
       related: true
   - scope:
       path: ""
@@ -274,3 +274,4 @@ defaults:
       layout: single
       author_profile: false
       read_time: false
+      share: true
