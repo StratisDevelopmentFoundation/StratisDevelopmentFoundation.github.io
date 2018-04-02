@@ -14,6 +14,8 @@ If you generate enough addresses, eventually you will find an address that has w
 
 The code below takes a prefix (prefix must start with S, like all Stratis addresses) and generates addresses until the start of the address matches the requested prefix. It then prints the address/private key to the screen and halts.
 
+You should edit the code below so that the prefix "SA" is change to something else that starts with S.
+
 ```cs
 using System;
 using NBitcoin;

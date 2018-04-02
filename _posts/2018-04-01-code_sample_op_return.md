@@ -1,7 +1,7 @@
 ---
 title:  "Writing an OP_RETURN message to the blockchain"
 date:   2018-04-01 01:16:01 -0600
-permalink: op_return_write
+permalink: /op_return_write/
 categories: code_sample
 post_importance: 2
 ---
