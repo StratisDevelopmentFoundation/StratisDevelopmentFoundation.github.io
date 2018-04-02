@@ -1,10 +1,12 @@
 ---
 title: Contacting the SDF
 author_profile: false
-permalink: /
+permalink: /contact/
 ---
 # Contacting the Stratis Development Foundation
 
-Members of the SDF can be contacted by [email](mailto:stratisdevelopmentfoundation@gmail.com), or by [Telegram](https://t.me/joinchat/FM9Hq1HMf3tKxxeJUB2M3w).
+The best way to contact members of the SDF is through our [Discord](/discord/) chat room.
+
+You can also interact with the SDF community on [Reddit](/reddit/).
 
 Progress of the software created by the SDF can be tracked on github [here](https://github.com/StratisDevelopmentFoundation/). Feel free to create pull requests.

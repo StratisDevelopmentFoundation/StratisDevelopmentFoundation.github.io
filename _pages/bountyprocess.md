@@ -9,7 +9,7 @@ Bounties are offered for performing certain tasks for the SDF. These are awards 
 
 ## Bounty information request
 
-Asking for clarification on what is needed to complete the bounty is a good idea. You can contact the SDF directly [here](/#contact_sdf) to request clarification for what is needed to complete any given bounty successfully. This also helps prevent you from starting a bounty that someone else is already working on.
+Asking for clarification on what is needed to complete the bounty is a good idea. You can contact the SDF directly [here](/contact/) to request clarification for what is needed to complete any given bounty successfully. This also helps prevent you from starting a bounty that someone else is already working on.
 
 ## Bounty approval process
 
@@ -20,10 +20,6 @@ It is possible that you may start working on a bounty, only to have someone else
 ## Award process
 
 A Stratis address should be included in the comments of the github pull request. Stratis will be sent to this address if the SDF decides to award a bounty for the work.
-
-## Bounty award amount
-
-The bounty awards will be specified in USD. The conversion rate from USD to the STRAT that will be received by the person who completed the bounty will be determined by looking at the [coinmarketcap](https://coinmarketcap.com/currencies/stratis/#markets) price at the time of submission (the github pull request, typically).
 
 ## Use of submissions
 
