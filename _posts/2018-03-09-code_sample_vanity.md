@@ -1,7 +1,7 @@
 ---
 title:  "Creating a vanity address"
 date:   2018-03-09 16:16:01 -0600
-permalink: vanity-address
+permalink: /vanity-address/
 categories: code_sample
 post_importance: 4
 ---
