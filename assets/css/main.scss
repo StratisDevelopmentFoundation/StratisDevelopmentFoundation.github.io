@@ -4,5 +4,26 @@
 
 @charset "utf-8";
 
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/
+$link-color: blue;
+// $body-color: blue;
+// $background-color: blue;
+// $text-color: blue;
+// $link-color: blue;
+$masthead-link-color: white;
+
+.masthead {
+    background-image: url("/headerimg.png");
+}
+
+.greedy-nav {
+    background-color: transparent !important;
+}
+
+.icon {
+    fill: white !important;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
