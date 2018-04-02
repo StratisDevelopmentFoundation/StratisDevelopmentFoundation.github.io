@@ -1,6 +1,5 @@
 ---
 title: Frequently Asked Questions
-author_profile: false
 permalink: /faq/
 ---
 # Frequently Asked Questions
@@ -15,11 +14,13 @@ Stratis is an open source, decentralized cryptocurrency. It is also the name of 
 
 ### I'm a developer. How can I get involved?
 
-If you wish to learn more about how to use Stratis, visit our [Learning](/learning/) page.
+If you want to get started with Stratis development with a tutorial, visit [Quickstart](/starting/).
 
-If you wish to contribute to the SDF, see our [Bounties](/bounties/) page.
+If you want to learn more about how to use Stratis, visit our [Learning](/learning/) page.
 
-If you already know what you want to build, and would like to collaborate with members of the SDF to build it, please contact us directly.
+If you want to contribute to the SDF, see our [Bounties](/bounties/) page.
+
+If you already know what you want to build, and would like to collaborate with members of the SDF to build it, we'll be happy to give you feedback on [Discord](/discord/).
 
 ### I'm a representative of a company that needs blockchain expertise. How can I contact the Stratis team?
 
