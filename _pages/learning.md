@@ -1,7 +1,8 @@
 ---
 title: Learning
-author_profile: false
 permalink: /learning/
+sidebar:
+  nav: "newdev"
 ---
 ## Learning Resources:
 

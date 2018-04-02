@@ -16,3 +16,22 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+# newdev:
+#   - title: Heading 1
+#     children:
+#       - title: "link title1"
+#         url: /docs/quick-start-guide/
+#       - title: "link title1"
+#         url: /docs/structure/
+
+#   - title: Heading 2
+#     children:
+#       - title: "link title1"
+#         url: /docs/configuration/
+#       - title: "link title2"
+
+
+# add the below to a yaml on a page/post
+# sidebar:
+#   nav: "docs"I
