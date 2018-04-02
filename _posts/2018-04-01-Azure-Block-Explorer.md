@@ -5,7 +5,9 @@ categories: learning bounties
 post_importance: 1
 bounty: 25
 ---
-*This is an unfinished article. Earn {{ page.bounty }} STRAT by completing this article. Edit it **[here](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/edit/master/{{ page.path }})**.*
+
+This is an unfinished article. Earn {{ page.bounty }} STRAT by completing this article. Edit it [here](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/edit/master/{{ page.path }}).
+{: .notice--info}
 
 # Setting up an Azure block explorer
 

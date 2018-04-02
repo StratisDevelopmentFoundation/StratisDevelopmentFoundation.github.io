@@ -4,8 +4,10 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "FAQ"
-    url: /faq/
+  # - title: "FAQ"
+  #   url: /faq/
+  - title: "Quickstart"
+    url: /starting/
   - title: "Learning"
     url: /learning/
   - title: "Bounties"

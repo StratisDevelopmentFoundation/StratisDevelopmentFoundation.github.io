@@ -1,6 +1,5 @@
 ---
 title: Discord
-author_profile: false
 permalink: /discord/
 ---
 ## Discord Chat Server
@@ -13,6 +12,6 @@ People who contribute to the SDF in some way will be given access to private roo
 
 ## How to join
 
-Join at this link: [SDF Discord](https://discord.gg/99EX7d4)
+Join at this link: [SDF Discord](https://discord.gg/99EX7d4){: .btn .btn--info}
 
 After joining, you will be unable to talk in public rooms, and only able to talk in the #new_user room. In the #new_user room, please tell us a bit about your background (Developer? Writer? Web design? Student?) and what your interest is in the SDF (Bounties? Projects? Writing articles? Promoting Stratis?). After this introduction, an admin will give you access to communicate in the public chat rooms.

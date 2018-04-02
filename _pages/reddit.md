@@ -1,6 +1,5 @@
 ---
 title: Reddit
-author_profile: false
 permalink: /reddit/
 ---
 ## SDF Reddit community

@@ -1,6 +1,5 @@
 ---
 title: Bounties
-author_profile: false
 permalink: /bounties/
 ---
 # Bounties
@@ -20,9 +19,24 @@ Bounty: {{ post.bounty }} STRAT
 
 ### Software/Tools to be created
 
-* OP_RETURN block explorer
-* Stratis blockchain REST API
+* OP_RETURN block explorer extension to the full node
+
+Bounty: 100 STRAT
+
+* Block Explorer with API to the full node
+
+Bounty: 50 STRAT
+
+* IPFS / Torrent version of the blockchain for faster downloading
+
+Bounty: 20 STRAT
+
+* .NET Core based ECDH (or other encryption protocol) solution for encrypted messaging through OP_RETURN messages using public/private key pairs
+
+Bounty: 100 STRAT
+
+([Contact](/contact/) the SDF for more information on what is required to claim these bounties)
 
 ### Projects
 
-Bounties are available for the [Projects](/projects/) that the SDF is working on. However, you should join our [Discord](/discord/) to collaborate on those projects.
+Bounties are available for the [Projects](/projects/) that the SDF is working on. However, you should join our [Discord](/discord/){: .btn .btn--info} to collaborate on those projects.

@@ -1,6 +1,5 @@
 ---
 title: Protocol Registry
-author_profile: false
 permalink: /projects/protocol_registry/
 categories: projects
 short_overview: A second layer on top of the Stratis blockchain allowing for community created protocols and applications
@@ -44,4 +43,10 @@ However, there must be an agreed upon format for how the messages are written to
 
 ## Current Status
 
+An OP_RETURN block explorer API has been created to support these types of protocols. Beta versions of the first voting protocol has been deployed and tested on the Stratis main net. An API that shows the results of blockchain votes has been created as well. A beta version of an address JSON datastructure protocol has been created.
+
+More work is needed to integrate the OP_RETURN block explorer API into the Stratis Full Node, because right now it is external to the full node, which is not ideal. After that is complete, it needs to be dockerized and moved to an Azure template so that anyone can create their own.
+
 ## How to contribute to this project
+
+This project is fairly complicated and is mostly undocumented at the moment. Join us on [Discord](/discord/) to contribute.

@@ -1,6 +1,5 @@
 ---
 title: Contacting the SDF
-author_profile: false
 permalink: /contact/
 ---
 # Contacting the Stratis Development Foundation

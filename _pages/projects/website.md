@@ -1,6 +1,5 @@
 ---
 title: SDF Website Improvements
-author_profile: false
 permalink: /projects/sdf_website/
 categories: projects
 short_overview: Improving the aesthetics and presentation of the SDF website

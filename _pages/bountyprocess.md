@@ -1,6 +1,5 @@
 ---
 title: Contributing to the SDF to receive bounties
-author_profile: false
 permalink: /bountyprocess/
 ---
 # Contributing to the SDF to receive bounties
@@ -9,7 +8,7 @@ Bounties are offered for performing certain tasks for the SDF. These are awards 
 
 ## Bounty information request
 
-Asking for clarification on what is needed to complete the bounty is a good idea. You can contact the SDF directly [here](/contact/) to request clarification for what is needed to complete any given bounty successfully. This also helps prevent you from starting a bounty that someone else is already working on.
+Asking for clarification on what is needed to complete the bounty is a good idea. You can contact the SDF [here](/contact/) to request clarification for what is needed to complete any given bounty successfully. This also helps prevent you from starting a bounty that someone else is already working on.
 
 ## Bounty approval process
 
