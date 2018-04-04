@@ -56,3 +56,6 @@ Before you start you must create your own local branch:
 3. Click *New Pull Request* button
 4. Select your own branch for comparison with *base: master* SDF repository
 5. Click *Create Pull Request* button
+
+Article written by @LukasDev (can be contacted on our [Discord](/discord/)) Tip @LukasDev with Stratis [here](https://chainz.cryptoid.info/strat/address.dws?Sdyi3wDUV4zMvwLVU4EHby2rK93GjUNUaK)
+{: .notice--info}
