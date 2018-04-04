@@ -53,6 +53,6 @@ Before you start you must create your own local branch:
 ## Create a pull request to the original SDF repo
 1. Enter into your account on https://github.com
 2. Select repository *StratisDevelopmentFoundation.github.io*
-3. Click *New Pull Request* button
+3. Click *Compare & Pull Request* button
 4. Select your own branch for comparison with *base: master* SDF repository
 5. Click *Create Pull Request* button
