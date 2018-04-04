@@ -35,6 +35,20 @@ Bounty: 20 STRAT
 
 Bounty: 100 STRAT
 
+* adding getReceivedByAddress function to the full node
+
+Bounty: 30 STRAT
+
+* Build a dashboard UI on top of the api feature that allow to display stats about the node, this has to be flexible so other features can register links to there UIs
+
+* Build a UI on top of the previous task for the wallet.
+
+* Build a feature that allowes to index trx balances and query them via API
+
+* Build a coloured coins wallet feature (but we have a team that's working in that now)
+
+* Build API endpoints that allow to build multisig trx and also sign existing multisig trx
+
 ([Contact](/contact/) the SDF for more information on what is required to claim these bounties)
 
 ### Projects
