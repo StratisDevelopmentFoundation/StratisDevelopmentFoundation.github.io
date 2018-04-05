@@ -45,9 +45,11 @@ Bounty: 30 STRAT
 
 * Build a feature that allowes to index trx balances and query them via API
 
-* Build a coloured coins wallet feature (but we have a team that's working in that now)
+* Build a coloured coins wallet feature
 
 * Build API endpoints that allow to build multisig trx and also sign existing multisig trx
+
+* Build [WAVES gateway](https://github.com/jansenmarc/WavesGatewayFramework)
 
 ([Contact](/contact/) the SDF for more information on what is required to claim these bounties)
 
