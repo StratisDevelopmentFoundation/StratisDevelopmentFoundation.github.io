@@ -2,13 +2,9 @@
 title:  "Setting up the Visual Studio Development Environment to interact with the Stratis blockchain - Windows"
 date:   2018-04-01 16:16:01 -0600
 permalink: /install_vs_windows/
-categories: learning bounties
+categories: learning
 post_importance: 1
-bounty: 10
 ---
-This is an unfinished article. Earn {{ page.bounty }} STRAT by completing this article. Edit it [here](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/edit/master/{{ page.path }}).
-{: .notice--info}
-
 # Getting started with Stratis Development
 
 This article will show you how to set up Visual Studio so that you can run C# code that interacts with the Stratis blockchain.
@@ -69,3 +65,6 @@ Add a breakpoint as shown in the screenshot
 ![alt text](/assets/images/new_keys_addresses.png "New keys and addresses")
 
 Congratulations! You have now successfully created a new Console project and interacted with the Stratis Blockchain.
+
+Article written by @Aevan (can be contacted on our [Discord](/discord/)) Tip @Aevan with Stratis [here](https://chainz.cryptoid.info/strat/address.dws?SRbv2Pw2httW7vcTGvmtc62qVmVuQs9rQx)
+{: .notice--info}
