@@ -24,7 +24,7 @@ There is several ways to complete this step. The easiest way to do it, is as fol
 ![alt text](/assets/images/install_nstratis.png "Install NStratis")
 
 ## Paste sample code into the program.cs
-Past the following code static Main method
+Past the following code into the static Main method
 ```
             Key privateKey = new Key();
             PubKey publicKey = privateKey.PubKey;
