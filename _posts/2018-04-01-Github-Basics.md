@@ -11,11 +11,19 @@ This article will show you how to use Git and Github to fork an SDF github repo,
 ## Sign up for github
 1. Enter the website https://github.com
 2. Register your account (if you have account you can ommit this step)
+    ![alt text](/assets/images/register_github.png "register_github")
 3. Sign in to your account.
+    - click *Sign in* button
+
+        ![alt text](/assets/images/sign_in_button_github.png "sign_in_button_github")
+
+    - write your *username* and *password*
+
+        ![alt text](/assets/images/sign_in_username_password_github.png "sign_in_username_password_github")
 
 ## Install git
 1. [Download git](https://git-scm.com/downloads) (version depends on your OS)
-2. Install downloaded install file git
+2. Install downloaded file git
 3. Before fork or clone repository you must set up your git. [Here](https://help.github.com/articles/set-up-git/)
    is a good explanation (Setting up Git chapter and the three steps below)
 
