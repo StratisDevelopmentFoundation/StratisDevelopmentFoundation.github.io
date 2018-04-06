@@ -30,16 +30,22 @@ This article will show you how to use Git and Github to fork an SDF github repo,
 ## Fork an SDF repo
 1. Navigate to the [SFD repository](https://github.com/StratisDevelopmentFoundation)
 2. Click repository StratisDevelopmentFoundation.github.io
-3. Find *Fork button* and click it.
+3. Find *Fork* button and click it
+
+    ![alt text](/assets/images/fork_button_github.png "fork_button_github")
+
    You have just forked the repository into your account
 
 ## Clone the repo locally
 1. Navigate to your fork, should be like this *https://github.com/YOUR-USERNAME/StratisDevelopmentFoundation.github.io*
-2. Under the repository name, click *Clone or download*.
+2. Under the repository name, click *Clone or download* and copy address (button in blue rectangle)
+
+    ![alt text](/assets/images/clone_or_download_button_github.png "clone_or_download_button_github")
 3. You can clone repository by HTTPS or SSH protocol (if you prefer second option, you must first [generate SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/))
 4. Open Git Bash
 5. Move to your folder with local repository (use *cd .., cd, ls, pwd* command)
 6. Use *git clone git@github.com:YOUR-USERNAME/StratisDevelopmentFoundation.github.io.git*
+    ![alt text](/assets/images/git_clone.png "git_clone")
 
 ## Modify the repo locally
 
