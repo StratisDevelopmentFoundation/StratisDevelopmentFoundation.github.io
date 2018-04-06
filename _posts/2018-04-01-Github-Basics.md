@@ -54,14 +54,25 @@ Before you start you must create your own local branch:
 1. Open Git Bash
 2. Move to folder ../StratisDevelopmentFoundation.github.io on your computer (use *cd .., cd, ls, pwd* command)
 3. Use *git checkout -b "name_of_your_new_branch"* (you can check your current branch with *git branch*)
+
+    ![alt text](/assets/images/git_checkout_b.png "git_checkout_b")
+
+    ![alt text](/assets/images/git_branch.png "git_branch")
+
 4. You can make changes on your repository locally right now. When you finished you can commit your changes.
    The below steps describe how.
 
 ## Commit changes to your github fork
 1. Open Git Bash
-2. Use *git status*. You can see the result of your changes.
+2. Use *git status*. You can see the result of your changes
+
+    ![alt text](/assets/images/git_status.png "git_status")
 3. Use *git add -A*
+
+    ![alt text](/assets/images/git_add_a.png "git_add_ad")
 4. Use *git commit -m "commit_name"*
+
+    ![alt text](/assets/images/git_commit.png "git_commit")
 5. Use *git push origin "name_of_your_new_branch"*
 
 ## Create a pull request to the original SDF repo
