@@ -1,3 +1,13 @@
+-date:   2018-04-01 16:16:01 -0600
+-permalink: /install_vs_windows/
+-categories: learning bounties
+-post_importance: 1
+-bounty: 10
+----
+-This is an unfinished article. Earn {{ page.bounty }} STRAT by completing this article. Edit it [here](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/edit/master/{{ page.path }}).
+-{: .notice--info}
+-
+
 # Getting started with Stratis Development
 
 This article will show you how to set up Visual Studio so that you can run C# code that interacts with the Stratis blockchain.
@@ -33,6 +43,11 @@ Past the following code into the static Main method
             Console.WriteLine($"Stratis testnet address: {publicKey.GetAddress(Network.StratisTest)}");
             Console.WriteLine($"Statis mainnet address: {publicKey.GetAddress(Network.StratisMain)}");
             Console.ReadLine();
+```
+
+3. Add the following line of code to the top of your Program.cs file
+```
+using NBitcoin;
 ```
 
 Your Program.cs file should look like this
