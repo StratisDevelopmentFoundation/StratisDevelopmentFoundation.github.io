@@ -1,4 +1,5 @@
 ---
+title:  "Setting up the Visual Studio Development Environment to interact with the Stratis blockchain - Windows"
 date:   2018-04-01 16:16:01 -0600
 permalink: /install_vs_windows/
 categories: learning bounties
