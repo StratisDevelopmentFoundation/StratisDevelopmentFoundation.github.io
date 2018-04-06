@@ -12,7 +12,7 @@ This article will show you how to use Git and Github to fork an SDF github repo,
 1. Enter the website https://github.com
 2. Register your account (if you have account you can ommit this step)
     ![alt text](/assets/images/register_github.png "register_github")
-3. Sign in to your account.
+3. Sign in to your account
     - click *Sign in* button
 
         ![alt text](/assets/images/sign_in_button_github.png "sign_in_button_github")
@@ -60,7 +60,7 @@ Before you start you must create your own local branch:
     ![alt text](/assets/images/git_branch.png "git_branch")
 
 4. You can make changes on your repository locally right now. When you finished you can commit your changes.
-   The below steps describe how.
+   The below steps describe how
 
 ## Commit changes to your github fork
 1. Open Git Bash
@@ -75,12 +75,23 @@ Before you start you must create your own local branch:
     ![alt text](/assets/images/git_commit.png "git_commit")
 5. Use *git push origin "name_of_your_new_branch"*
 
+    ![alt text](/assets/images/git_push.png "git_push")
+
 ## Create a pull request to the original SDF repo
 1. Enter into your account on https://github.com
 2. Select repository *StratisDevelopmentFoundation.github.io*
-3. Click *Compare & Pull Request* button
+3. Click *New pull request* button
+
+    ![alt text](/assets/images/new_pull_request_button.png "new_pull_request_button")
 4. Select your own branch for comparison with *base: master* SDF repository
+
+    ![alt text](/assets/images/pr_comparison_branch.png "pr_comparison_branch")
 5. Click *Create Pull Request* button
+
+    ![alt text](/assets/images/create_pull_request_button.png "create_pull_request_button")
+
+
+From now you contribute to Software Development Foundation project!
 
 Article written by @LukasDev (can be contacted on our [Discord](/discord/)) Tip @LukasDev with Stratis [here](https://chainz.cryptoid.info/strat/address.dws?Sdyi3wDUV4zMvwLVU4EHby2rK93GjUNUaK)
 {: .notice--info}
