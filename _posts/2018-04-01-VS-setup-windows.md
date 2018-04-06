@@ -46,7 +46,7 @@ Add a breakpoint as shown in the screenshot
 1. Run your project by pressing F5.
 2. A new Console Window will open and the project will 'stop' at the breakpoint you have set in the previous step.
 ![alt text](/assets/images/run_project.png "Run project")
-3. Step over each line of code by pressing F10.
+3. Step over each line of code by pressing F10. You can mouseover properties to see their values
 ![alt text](/assets/images/step_over.png "Step over")
 4. Press F5 again to continue the application
 5. Inspect the Console Window to see its output. It should look similar to this:
