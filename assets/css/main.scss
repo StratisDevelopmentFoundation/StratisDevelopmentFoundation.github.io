@@ -24,6 +24,16 @@ $masthead-link-color: white;
     fill: white !important;
 }
 
+.greedy-nav a:hover {
+    color: #bbbbbb;
+}
+
+.greedy-nav .hidden-links,
+.greedy-nav .hidden-links a:hover
+{
+	background-color:#0092ca;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
