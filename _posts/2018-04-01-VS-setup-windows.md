@@ -4,6 +4,7 @@ date:   2018-04-01 16:16:01 -0600
 permalink: /install_vs_windows/
 categories: learning
 post_importance: 1
+author: Aevan
 ---
 # Getting started with Stratis Development
 

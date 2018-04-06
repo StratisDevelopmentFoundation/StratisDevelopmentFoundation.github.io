@@ -3,6 +3,7 @@ title:  "Contributing to the SDF with Github"
 date:   2018-04-01 16:16:01 -0600
 categories: learning
 post_importance: 3
+author: LukasDev
 ---
 # Contributing to the SDF with Github
 
