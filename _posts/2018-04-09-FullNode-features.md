@@ -236,4 +236,4 @@ In the console window for StratisD, we see the message we added to our controlle
 
 We've learned here how we can add our own custom features to the Stratis full node. You will notice that there are lots of other feature projects already set up - We can learn a lot by inspecting these. We can make our own modifications to them, or we can add new features of our own. In particular, Take a look at "Stratis.Bitcoin.Features.Wallet". The controller in this Project shows a lot about how to make transactions and inspect wallets using the Stratis Full Node.
 
-The source code for the changes made during this article can be found (here on github)[https://github.com/StratisDevelopmentFoundation/StratisBitcoinFullNode/commit/5ff2c4de5105720f9ab1455a84521f6c6e2df992].
+The source code for the changes made during this article can be found [here on github](https://github.com/StratisDevelopmentFoundation/StratisBitcoinFullNode/commit/5ff2c4de5105720f9ab1455a84521f6c6e2df992).
