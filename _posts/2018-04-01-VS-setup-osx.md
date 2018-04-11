@@ -1,12 +1,12 @@
 ---
-title:  "Setting up the Visual Studio Development Environment to interact with the Stratis blockchain - OSX"
+title:  "Install Visual Studio on OSX"
 date:   2018-04-01 16:16:01 -0600
 categories: learning
 permalink: /vs-setup-osx/
-post_importance: 1
+post_importance: 4
 author: Ashirvad
 ---
-# Getting started with Stratis Development
+# Installing Visual Studio on Windows
 
 This article will show you how to set up Visual Studio so that you can run C# code that interacts with the Stratis blockchain.
 
