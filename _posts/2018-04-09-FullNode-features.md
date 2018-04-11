@@ -17,11 +17,11 @@ You can use the same approach to add functionality that is more interesting than
 
 Before you start:
 
-Set up your Visual Studio development environment
+Set up your Visual Studio development environment ([OSX](/vs-setup-osx/), [Windows](/install_vs_windows/)
 
-For the Stratis Full Node code
+Download the Stratis Full Node code (See first part of [this](/install_fn/))
 
-Open the SFN code in Visual Studio
+Open the SFN code in Visual Studio (Open solution, browse to solution in StratisFullNode/src/)
 
 ### Adding a Project
 
