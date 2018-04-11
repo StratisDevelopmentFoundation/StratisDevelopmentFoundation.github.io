@@ -1,13 +1,11 @@
 ---
 title:  "Setting up the Visual Studio Development Environment to interact with the Stratis blockchain - OSX"
 date:   2018-04-01 16:16:01 -0600
-categories: learning bounties
+categories: learning
+permalink: /vs-setup-osx/
 post_importance: 1
-bounty: 10
+author: Ashirvad
 ---
-This is an unfinished article. Earn {{ page.bounty }} STRAT by completing this article. Edit it [here](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/edit/master/{{ page.path }}).
-{: .notice--info}
-
 # Getting started with Stratis Development
 
 This article will show you how to set up Visual Studio so that you can run C# code that interacts with the Stratis blockchain.
@@ -21,13 +19,13 @@ This article will show you how to set up Visual Studio so that you can run C# co
 
 ![image](https://user-images.githubusercontent.com/2681744/38523840-58b5bc7c-3c6a-11e8-9fb1-f351f053d564.png)
 
-3. After installation completes, Open the Visual Studio from Applications. 
+3. After installation completes, Open the Visual Studio from Applications.
 ## Create a console project
 1. Open Visual Studio and click on **New Project** as shown below:
 
 ![image](https://user-images.githubusercontent.com/2681744/38524321-d0de6ae0-3c6b-11e8-8fc1-6e5cae1ecfe7.png)
 
-2. Under **.Net Core** from left navigation menu, Select **App**. 
+2. Under **.Net Core** from left navigation menu, Select **App**.
 3. Select **Console Application** under **General** and click **Next** Screenshot below:
 
 ![image](https://user-images.githubusercontent.com/2681744/38524480-5a5ef118-3c6c-11e8-928a-100d02641d6a.png)
@@ -65,7 +63,7 @@ You can either use Nuget package manager console or Visual Studio GUI to add **n
             Console.WriteLine($"Stratis testnet address: {publicKey.GetAddress(Network.StratisTest)}");
             Console.WriteLine($"Statis mainnet address: {publicKey.GetAddress(Network.StratisMain)}");
             Console.ReadLine();
-  
+
 3. Complete code for **Program.cs** file should look similar to screentshot below:
 ![image](https://user-images.githubusercontent.com/2681744/38525669-ca872600-3c70-11e8-9c94-08ebb0a52e00.png)
 ## Add a debug mark
@@ -90,4 +88,4 @@ Click on the vertical grey bar to add a breakpoint as shown in the screenshot be
 
 Congratulations!🎉  . You have now successfully created a new Console project and interacted with the Stratis Blockchain.
 
-Article By @ashirvad-github 
+Article By @ashirvad-github
