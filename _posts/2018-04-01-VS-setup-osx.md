@@ -88,4 +88,5 @@ Click on the vertical grey bar to add a breakpoint as shown in the screenshot be
 
 Congratulations!🎉  . You have now successfully created a new Console project and interacted with the Stratis Blockchain.
 
-Article By @ashirvad-github
+Article written by @ashirvad-github (can be contacted on our [Discord](/discord/)) Tip @ashirvad-github with Stratis [here](https://chainz.cryptoid.info/strat/address.dws?SWUhrx3QnRqkR8ML14sEpQqju8qMm8Ab83)
+{: .notice--info}
