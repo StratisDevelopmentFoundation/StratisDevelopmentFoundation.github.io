@@ -5,6 +5,9 @@ permalink: /install_vs_windows/
 categories: learning
 post_importance: 4
 author: Aevan
+toc: true
+toc_label: "Visual Studio for Windows"
+toc_icon: "x"
 ---
 # Install Visual Studio on Windows
 

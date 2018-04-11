@@ -1,6 +1,10 @@
 ---
 title: Contributing to the SDF to receive bounties
 permalink: /bountyprocess/
+toc: true
+toc_label: "Bounty Process"
+toc_icon: "x"
+
 ---
 # Contributing to the SDF to receive bounties
 

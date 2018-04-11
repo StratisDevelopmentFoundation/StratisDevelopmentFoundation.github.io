@@ -3,6 +3,9 @@ title: Learning
 permalink: /learning/
 sidebar:
   nav: "newdev"
+toc: true
+toc_label: "Learning Resources"
+toc_icon: "x"
 ---
 ## Learning Resources:
 

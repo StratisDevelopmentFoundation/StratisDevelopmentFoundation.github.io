@@ -1,6 +1,10 @@
 ---
 title: Frequently Asked Questions
 permalink: /faq/
+toc: true
+toc_label: "FAQ"
+toc_icon: "x"
+
 ---
 # Frequently Asked Questions
 

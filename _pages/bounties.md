@@ -1,6 +1,9 @@
 ---
 title: Bounties
 permalink: /bounties/
+toc: true
+toc_label: "Bounties"
+toc_icon: "x"
 ---
 # Bounties
 
