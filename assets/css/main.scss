@@ -28,10 +28,9 @@ $masthead-link-color: white;
     color: #bbbbbb;
 }
 
-.greedy-nav .hidden-links,
-.greedy-nav .hidden-links a:hover
+.greedy-nav .hidden-links
 {
-	background-color:#0092ca;
+    background: #0092ca !important;
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
