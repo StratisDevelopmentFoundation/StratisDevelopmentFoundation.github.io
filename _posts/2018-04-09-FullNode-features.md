@@ -4,6 +4,9 @@ date:   2018-04-09 16:16:01 -0600
 permalink: /add_feature/
 categories: code_sample
 post_importance: 1
+toc: true
+toc_label: "Adding A Feature"
+toc_icon: "x"
 ---
 ## Adding a new Feature to the Stratis Full Node
 
