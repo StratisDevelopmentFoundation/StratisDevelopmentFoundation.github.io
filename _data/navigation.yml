@@ -19,21 +19,38 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-# newdev:
-#   - title: Heading 1
-#     children:
-#       - title: "link title1"
-#         url: /docs/quick-start-guide/
-#       - title: "link title1"
-#         url: /docs/structure/
+newdev:
+  - title: QuickStart
+    children:
+      - title: "Getting Started Roadmap"
+        url: /starting/
 
-#   - title: Heading 2
-#     children:
-#       - title: "link title1"
-#         url: /docs/configuration/
-#       - title: "link title2"
+  - title: Stratis Development 101 - Setup
+    children:
+      - title: "1. Join SDF Discord"
+        url: /discord/
+      - title: "2. Set up Visual Studio"
+        url: /vs-setup-osx/
+      - title: "3. Set up the Stratis Full Node"
+        url: /install_fn/
 
+  - title: Starting Blockchain Development
+    children:
+      - title: "1. Add a feature to your Stratis Full Node"
+        url: /add_feature/
+      - title: "2. Try some code samples"
+        url: /samples/
+      - title: "3. Try to complete a bounty"
+        url: /bounties/
+      - title: "4. Contribute to the SDF"
+        url: /contribute_to_sdf/
 
+  - title: Advanced Development
+    children:
+      - title: "1. Browse our Learning articles"
+        url: /learning/
+      - title: "2. Join a Project"
+        url: /projects/
 # add the below to a yaml on a page/post
 # sidebar:
-#   nav: "docs"I
+#   nav: "newdev"

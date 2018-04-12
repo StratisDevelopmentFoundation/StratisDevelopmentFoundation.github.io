@@ -1,8 +1,7 @@
 ---
-title:  "Setting up a development environment on Azure"
+title:  "Set up a dev box on Azure"
 date:   2018-04-01 16:16:01 -0600
-permalink: /azure_dev/
-categories: learning bounties
+categories: bounties install article
 post_importance: 3
 bounty: 15
 ---

@@ -7,32 +7,37 @@ toc: true
 toc_label: "Learning Resources"
 toc_icon: "x"
 ---
-## Learning Resources:
+# Learning Resources:
 
-### SDF produced articles
+## Installation Instructions
 
-{% assign learning_posts = site.posts | where: "categories","learning" | sort: 'post_importance' %}
-{% for post in learning_posts %}
-[{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+{% assign install_posts = site.posts | where: "categories","install" | sort: 'post_importance' %}
+{% for post in install_posts %}
+### [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
 
-### SDF produced code samples
+## Tutorials
 
-All code samples, unless otherwise specified, are written in C#
+{% assign tutorial_posts = site.posts | where: "categories","tutorial" | sort: 'post_importance' %}
+{% for tutorial_post in tutorial_posts %}
+### [{{ tutorial_post.title }}]({{ site.baseurl }}{{ tutorial_post.url }})
+{% endfor %}
+
+## Stratis C# code samples
 
 {% assign code_samples = site.posts | where: "categories","code_sample" | sort: 'post_importance' %}
 {% for code_sample in code_samples %}
-[{{ code_sample.title }}]({{ site.baseurl }}{{ code_sample.url }})
+### [{{ code_sample.title }}]({{ site.baseurl }}{{ code_sample.url }})
 {% endfor %}
 
-### Official Stratis team produced resources
+## Official Stratis team produced resources
 
-[Stratis Academy landing page](https://stratisplatform.com/academy/academy-resources/)
+### [Stratis Academy landing page](https://stratisplatform.com/academy/academy-resources/)
 
-[Programming the blockchain in C#](https://programmingblockchain.gitbooks.io/programmingblockchain/content/)
+### [Programming the blockchain in C#](https://programmingblockchain.gitbooks.io/programmingblockchain/content/)
 
-### Community produced resources
+## Community produced resources
 
-[Stratis Price and Staking Information](https://stratispool.com/)
+### [Stratis Price and Staking Information](https://stratispool.com/)
 
-[Stratis Block Explorer](https://chainz.cryptoid.info/strat/)
+### [Stratis Block Explorer](https://chainz.cryptoid.info/strat/)

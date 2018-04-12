@@ -1,9 +1,9 @@
 ---
 title:  "Setting up an Azure block explorer"
-date:   2018-04-01 16:16:01 -0600
-categories: learning bounties
-post_importance: 1
-bounty: 25
+categories: install bounties article
+permalink: /azure_block_explorer/
+post_importance: 4
+bounty: 40
 ---
 
 This is an unfinished article. Earn {{ page.bounty }} STRAT by completing this article. Edit it [here](https://github.com/StratisDevelopmentFoundation/StratisDevelopmentFoundation.github.io/edit/master/{{ page.path }}).

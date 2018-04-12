@@ -1,6 +1,8 @@
 ---
 title: Discord
 permalink: /discord/
+sidebar:
+  nav: "newdev"
 ---
 ## Discord Chat Server
 

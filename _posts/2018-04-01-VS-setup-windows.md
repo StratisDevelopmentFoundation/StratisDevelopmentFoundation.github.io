@@ -2,12 +2,14 @@
 title:  "Install Visual Studio on Windows"
 date:   2018-04-01 16:16:01 -0600
 permalink: /install_vs_windows/
-categories: learning
+categories: install
 post_importance: 4
 author: Aevan
 toc: true
 toc_label: "Visual Studio for Windows"
 toc_icon: "x"
+sidebar:
+  nav: "newdev"
 ---
 # Install Visual Studio on Windows
 

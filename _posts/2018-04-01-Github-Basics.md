@@ -1,20 +1,26 @@
 ---
 title:  "Contributing to the SDF with Github"
 date:   2018-04-01 16:16:01 -0600
-categories: learning
+categories: tutorial
 post_importance: 3
 author: LukasDev
 toc: true
 toc_label: "Contributing through Github"
 toc_icon: "x"
+permalink: /contribute_to_sdf/
+sidebar:
+  nav: "newdev"
 ---
 # Contributing to the SDF with Github
 
-This article will show you how to use Git and Github to fork an SDF github repo, and create a pull request to submit work to the SDF
+This article will show you how to use Git and Github to fork an SDF github repo, and create a pull request to submit work to the SDF.
+
+You would do this process if you were working on one of the [bounties found here](/bounties/)
 
 ## Sign up for github
 1. Enter the website https://github.com
 2. Register your account (if you have account you can omit this step)
+
     ![alt text](/assets/images/register_github.png "register_github")
 3. Sign in to your account
     - click *Sign in* button

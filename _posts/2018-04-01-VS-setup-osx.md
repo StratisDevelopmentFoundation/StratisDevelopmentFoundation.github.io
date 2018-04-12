@@ -1,17 +1,21 @@
 ---
 title:  "Install Visual Studio on OSX"
 date:   2018-04-01 16:16:01 -0600
-categories: learning
+categories: install
 permalink: /vs-setup-osx/
 post_importance: 4
 author: Ashirvad
 toc: true
 toc_label: "Visual Studio for OSX"
 toc_icon: "x"
+sidebar:
+  nav: "newdev"
 ---
 # Installing Visual Studio on OSX
 
 This article will show you how to set up Visual Studio so that you can run C# code that interacts with the Stratis blockchain.
+
+If you are using Windows, the instructions are [here](/install_vs_windows/).
 
 ## Download and install Visual Studio Community Edition
 ### Download

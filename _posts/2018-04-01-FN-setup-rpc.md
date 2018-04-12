@@ -1,23 +1,36 @@
 ---
-title:  "Setting up the Stratis Full Node for development, RPC"
+title:  "Setting up the Stratis Full Node for development"
 date:   2018-04-01 16:16:01 -0600
 permalink: /install_fn/
-categories: learning
+categories: install
 post_importance: 3
+toc: true
+toc_label: "Visual Studio for OSX"
+toc_icon: "x"
+sidebar:
+  nav: "newdev"
 ---
-# Setting up the Stratis Full Node for development in OSX
+# Setting up the Stratis Full Node for development
 
-Clone the StratisBitcoinFullNode code from https://github.com/stratisproject/StratisBitcoinFullNode
+## Download the source code
+
+Clone the StratisBitcoinFullNode code from [https://github.com/stratisproject/StratisBitcoinFullNode](https://github.com/stratisproject/StratisBitcoinFullNode)
+
+## Build source code
 
 Open the full node solution in Visual Studio Community edition.
 
 Use the "Build all" command in Visual Studio.
+
+## Explore the code
 
 Go to the Stratis.StratisD "project" within the full node solution
 
 Go to Program.cs. This is a simple project that just starts a full node.
 
 Go to launchsettings.json. This is a configuration file that shows several possible "dotnet run" profiles.
+
+## Run the code
 
 Let's run the StratisD full node.
 
@@ -96,13 +109,17 @@ info: Stratis.Bitcoin.Configuration.NodeSettings[0]
       -rpcallowip=<ip>          Allow JSON-RPC connections from specified source. This option can be specified multiple times.
 ```
 
-Let's run the full node with default settings. Enter the command "dotnet run".
+Let's run the full node with default settings. Enter the command "dotnet run". The node starts up and logs various things to the terminal about it's progress.
 
-The node starts up and logs various things to the terminal about it's progress. Wait a minute for it to finish starting up, and then go to the swagger web interface to the node's API at http://localhost:37221/swagger
+## Use the API with Swagger
+
+After the node has finished starting up, and then go to the swagger web interface to the node's API at http://localhost:37221/swagger
 
 Click on the GET /api/Node/status to expand it, and then click on the "Try it out!" button. This interface is used to manually test the API exposed by the full node. Explore the available endpoints - you can learn a lot about what the API can do from this screen.
 
 Go back to the terminal window and hit ctrl+C several times to cancel the running of the full node.
+
+## Run the node with RPC turned on
 
 Let's run it again, but this time with the RPC server enabled. Run the command:
 
@@ -110,4 +127,4 @@ Let's run it again, but this time with the RPC server enabled. Run the command:
 dotnet run -server=1 -rpcuser=user -rpcpassword=pass
 ```
 
-Now the RPC server is active. Depending on how you develop your application you can decide whether to use the RPC server or the API. The API has more commands, and allows for RPC calls directly, so for many use cases it is better to use the API.
+Now the RPC server is active. Depending on how you develop your application you can decide whether to use the RPC server or the API.
