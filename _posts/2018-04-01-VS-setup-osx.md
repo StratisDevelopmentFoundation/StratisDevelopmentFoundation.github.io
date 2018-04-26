@@ -17,6 +17,8 @@ This article will show you how to set up Visual Studio so that you can run C# co
 
 If you are using Windows, the instructions are [here](/install_vs_windows/).
 
+If you would rather have your dev evnironment hosted on an Azure cloud server, the instructions are [here](/azure_dev/).
+
 ## Download and install Visual Studio Community Edition
 ### Download
 - Click [here](https://www.visualstudio.com/vs/community/) to download the latest version of **Visual Studio Community for Mac**.

@@ -15,6 +15,10 @@ sidebar:
 
 This article will show you how to set up Visual Studio so that you can run C# code that interacts with the Stratis blockchain.
 
+If you are using OSX, the instructions are [here](/vs-setup-osx/).
+
+If you would rather have your dev evnironment hosted on an Azure cloud server, the instructions are [here](/azure_dev/).
+
 ## Download and install Visual Studio Community Edition
 1. [Download Visual Studio 2017 Community Edition](https://www.visualstudio.com/downloads/)
 2. Run the file you have just downloaded and follow the steps in the installer
