@@ -1,6 +1,6 @@
 ---
 title:  "Setting up an Azure block explorer"
-categories: install bounties article
+categories: install bounties article azure
 permalink: /azure_block_explorer/
 post_importance: 4
 bounty: 40

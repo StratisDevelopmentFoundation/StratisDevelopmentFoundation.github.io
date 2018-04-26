@@ -15,6 +15,10 @@ toc_icon: "x"
 {% for post in install_posts %}
 ### [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
+{% assign install_pages = site.pages | where: "categories","install" | sort: 'post_importance' %}
+{% for post in install_pages %}
+### [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+{% endfor %}
 
 ## Tutorials
 
