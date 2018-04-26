@@ -51,15 +51,15 @@ namespace teststrat2
 
 ## Multi-threaded generation and input validation
 
-So you want to use all the CPU available on your computer to generate a fancy vanity address? 
-Here is how you can do that multi-threaded, and there is additional input validation since O 
-and I are not allows in address due to ambiguity. 
+So you want to use all the CPU available on your computer to generate a fancy vanity address?
+Here is how you can do that multi-threaded, and there is additional input validation since O
+and I are not allows in address due to ambiguity.
 
-Additionally this example does generation based upon input variables, so it's more easy to use 
-without recompiling and you can even share it with your friends. Start first with two characters, and you 
+Additionally this example does generation based upon input variables, so it's more easy to use
+without recompiling and you can even share it with your friends. Start first with two characters, and you
 will quickly learn that it is much harder to generate 3 characters, and even harder with more.
 
-Sometimes the threads find a match almost at the same time, so multiple private key and addresses might 
+Sometimes the threads find a match almost at the same time, so multiple private key and addresses might
 appear in the console output.
 
 Example on performance with threads: Generating address with prefix "SASA" with a single thread took
@@ -69,6 +69,9 @@ and there is an element of (random) luck involved.
 
 ```cs
 using System;
+using System.Diagnostics;
+using System.Threading;
+using System.Threading.Tasks;
 using NBitcoin;
 
 namespace teststrat2
@@ -87,9 +90,15 @@ namespace teststrat2
 
             var prefixUpper = prefix.ToUpper();
 
-            if (prefixUpper.Contains("O") || prefixUpper.Contains("I") || prefixUpper.Contains("0"))
+            if (prefixUpper[2] == 'O')
             {
-                Console.WriteLine("The characters O, I and 0 (zero) is not allowed in addresses.");
+                Console.WriteLine("The character O is not allowed as th second letter.");
+                return;
+            }
+
+            if (prefixUpper.Contains("0"))
+            {
+                Console.WriteLine("The character zero is not allowed in addresses.");
                 return;
             }
 
