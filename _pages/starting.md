@@ -13,4 +13,4 @@ Welcome! If you are a developer who wants to learn how to develop with Stratis, 
 
 We have step by step instructions for how to create your first sample applications. We also show some more advanced coding tasks. However, the Stratis Development Foundation is a community - To really get the most out of it, we ask you to give feedback, ask questions, and even contribute articles and code when you have built something useful.
 
-See the Sidebar on the left to begin.
+<--- See the Sidebar on the left to begin.

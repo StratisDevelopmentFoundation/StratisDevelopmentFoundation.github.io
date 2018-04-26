@@ -1,6 +1,6 @@
 ---
 title:  "Add getReceivedByAddress Endpoint"
-categories: coding bounties
+categories: coding completed_bounties
 post_importance: 4
 bounty: 30
 ---
