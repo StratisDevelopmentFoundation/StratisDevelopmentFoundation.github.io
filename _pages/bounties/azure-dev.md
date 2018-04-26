@@ -14,13 +14,126 @@ This article will show you how to create a VPC (Virtual Private Server) in the c
 
 ## Create an Azure account
 
-## Create a windows Azure instance
+**Create Azure subscription**
+
+1. If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/en-us/free/) before you begin.
+
+![screen shot 2018-04-26 at 4 02 36 am](https://user-images.githubusercontent.com/2681744/39306248-3934fe2e-497d-11e8-94bc-6bb099cf93ce.png)
+
+2. Create a new Microsoft account if you don't have one already. You can also create it during the Azure account creation process.
+
+![image](https://user-images.githubusercontent.com/2681744/39306385-b3a02f08-497d-11e8-9aeb-7fc7884dd2d6.png)
+
+**Login to Azure**
+
+Log in to the Azure portal at https://portal.azure.com using the credentials that was used to create the azure subscription. You can see the Azure portal dashboard after login.
+
+![image](https://user-images.githubusercontent.com/2681744/39306571-2adcbf5a-497e-11e8-8974-a5d3044d7f18.png)
+
+## Create a windows virtual machine in Azure instance
+
+1. Choose **Create a resource** in the upper left-hand corner of the Azure portal.
+
+![image](https://user-images.githubusercontent.com/2681744/39324954-9509bc2c-49ae-11e8-8f2c-dab3cb931a2f.png)
+
+2. In the search box above the list of Azure Marketplace resources, search for and select **Visual Studio Community 2017**, then select the first option **Visual Studio Community 2017 on Windows Server 2016**.
+
+![image](https://user-images.githubusercontent.com/2681744/39325123-08d34830-49af-11e8-9336-bcd015cea8d2.png)
+
+3. Click the **Create** button.
+
+![image](https://user-images.githubusercontent.com/2681744/39325182-2c3a3ae0-49af-11e8-9366-3512bef24180.png)
+
+4. Provide a VM name, such as _stratisVM_, leave the disk type as _SSD_, then provide a username, such as _azure_ashirvad_. The password must be at least 12 characters long .
+
+![image](https://user-images.githubusercontent.com/2681744/39325323-82fbb1a6-49af-11e8-943e-d19807bc4df8.png)
+
+5. Choose to **Create new** resource group, then provide a name, such as _stratisResourceGroup_. Choose your desired **Location**, then select **OK**.
+
+6. Select a size for the VM. You can filter by _Compute type_ or _Disk type,_ .
+![image](https://user-images.githubusercontent.com/2681744/39325404-b225764c-49af-11e8-9b50-f8ed1a3dc782.png)
+
+7. Under **Settings**, leave the defaults and select **OK**.
+
+![image](https://user-images.githubusercontent.com/2681744/39325416-beb701dc-49af-11e8-8bee-13fd6d671933.png)
+
+8. On the **summary** page, select **Create** to start the VM deployment.
+
+![image](https://user-images.githubusercontent.com/2681744/39325597-44e39b3a-49b0-11e8-8873-e0078b6433a8.png)
+
+9. The VM is pinned to the Azure portal dashboard. Once the deployment has completed, the VM summary automatically opens.
+
+![image](https://user-images.githubusercontent.com/2681744/39325668-69ded986-49b0-11e8-912b-c5702b28aca6.png)
 
 ## RDP to the windows instance
 
-## Follow instructions on how to create a windows Stratis development environment
+1. Click the **Connect** button on the virtual machine properties. A Remote Desktop Protocol file (.rdp file) is created and downloaded.
 
-# Remaining tasks to complete this article
+![image](https://user-images.githubusercontent.com/2681744/39325819-cd338270-49b0-11e8-945f-e2317099fd9f.png)
 
-* Follow existing steps, increase clarity and add more specific steps
-* Add screenshots
+2. To connect to your VM, open the downloaded RDP file. If prompted, click Connect. On a Mac, you need an RDP client such as this [Remote Desktop Client ](https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12)from the Mac App Store.
+
+3. Enter the user name and password you specified when creating the windows virtual machine, then click **Ok**.
+
+![image](https://user-images.githubusercontent.com/2681744/39325914-12e698d4-49b1-11e8-8ad9-0a2a5da57186.png)
+
+4. You may receive a certificate warning during the sign-in process. Click **Yes** or **Continue** to proceed with the connection.
+
+5. Congrats! Your windows virtual machine with Visual Studio 2017 community edition is ready.
+
+![image](https://user-images.githubusercontent.com/2681744/39325978-47f8673c-49b1-11e8-9be3-9dd4978e5e36.png)
+
+## How to create a windows Stratis development environment
+
+1. Open **Visual Studio 2017** from your VM desktop.
+
+![image](https://user-images.githubusercontent.com/2681744/39326088-98dce024-49b1-11e8-8a88-cff16e08f144.png)
+
+2. **Create** new **.Net core** console project. 
+
+![image](https://user-images.githubusercontent.com/2681744/39326161-c19e838c-49b1-11e8-82fe-ca12294e1001.png)
+
+![image](https://user-images.githubusercontent.com/2681744/39326185-d17a101e-49b1-11e8-998b-77a7f5fed583.png)
+
+3. Open **Nuget Manager** from **Tools**.
+
+![image](https://user-images.githubusercontent.com/2681744/39326223-ebc42e96-49b1-11e8-8984-1199be5a53b6.png)
+
+4. Search for **NStratis** .
+
+![image](https://user-images.githubusercontent.com/2681744/39326263-070bf012-49b2-11e8-85b2-bc2e786294c2.png)
+
+5. Select Console project and click install.
+
+![image](https://user-images.githubusercontent.com/2681744/39326286-18656b2c-49b2-11e8-9734-b394b4efb773.png)
+
+6. Open **Program.cs** code file and replace the content of the code file with following code.
+```
+using System;
+using NBitcoin;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Key privateKey = new Key();
+            PubKey publicKey = privateKey.PubKey;
+            Console.WriteLine($"Public Key: {publicKey}");
+            Console.WriteLine($"Public key hash: {publicKey.Hash}");
+            Console.WriteLine($"Stratis testnet address: {publicKey.GetAddress(Network.StratisTest)}");
+            Console.WriteLine($"Statis mainnet address: {publicKey.GetAddress(Network.StratisMain)}");
+            Console.ReadLine();
+        }
+    }
+}
+```
+
+7. Press **F5** to run the program in debug mode. 
+![image](https://user-images.githubusercontent.com/2681744/39326503-d3be0e74-49b2-11e8-8289-439568a9c2bb.png)
+
+Congratulations!🎉  . You have now successfully created a new Console project inside a Windows Virtual machine on Azure and interacted with the Stratis Blockchain.
+
+Article written by @ashirvad-github (can be contacted on our [Discord](/discord/)) Tip @ashirvad-github with Stratis [here](https://chainz.cryptoid.info/strat/address.dws?SWUhrx3QnRqkR8ML14sEpQqju8qMm8Ab83)
+{: .notice--info}
