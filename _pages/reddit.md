@@ -11,3 +11,7 @@ Reddit is better for complicated discussions that take place across a long perio
 ## How to join
 
 Join at this link: [Reddit](https://www.reddit.com/r/StratisDevFoundation/)
+
+Some recent discussions about the SDF on Reddit:
+
+<script src="https://www.reddit.com/domain/stratisdevelopmentfoundation.com/hot/.embed?limit=5&t=all&expanded=1" type="text/javascript"></script>
