@@ -6,14 +6,14 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "FAQ"
   #   url: /faq/
-  - title: "Quickstart"
-    url: /starting/
+  # - title: "Quickstart"
+  #   url: /starting/
   - title: "Learning"
     url: /learning/
   - title: "Bounties"
     url: /bounties/
-  - title: "Projects"
-    url: /projects/
+  # - title: "Projects"
+  #   url: /projects/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

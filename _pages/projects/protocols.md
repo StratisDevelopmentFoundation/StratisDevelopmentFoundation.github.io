@@ -1,7 +1,7 @@
 ---
 title: Protocol Registry
 permalink: /projects/protocol_registry/
-categories: projects
+categories: inactive_projects
 short_overview: A second layer on top of the Stratis blockchain allowing for community created protocols and applications
 ---
 # Protocol Registry

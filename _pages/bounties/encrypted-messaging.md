@@ -2,7 +2,7 @@
 title:  "Encrypted Messaging"
 categories: bounties coding
 post_importance: 2
-bounty: 100
+bounty: 50
 ---
 Earn {{ page.bounty }} STRAT by completing this task.
 {: .notice--info}
