@@ -4,7 +4,7 @@ date:   2018-0405-01 21:00:00 -0500
 permalink: /install_fullnode_on_rpi/
 author: TjadenFroyda
 categories: install
-post_importance: 2
+post_importance: 8
 toc: true
 toc_label: "Full Node on RPi"
 toc_icon: "x"
@@ -30,7 +30,7 @@ The article builds upon the excellent [RPi tutorial by olcko and demon](https://
 
 
 ## Full Node Setup
-At the time of this writing, **no stable dotnet-sdk exists for linux-arm.** The original Reddit how-to referenced the dotnet-sdk-2.2.100 nightly builds, however these caused daily node crashes during testing and I do **not** recommend.
+At the time of this writing, **no stable dotnet-sdk exists for linux-arm.** The original Reddit how-to referenced the dotnet-sdk-2.2.100 nightly builds, however these caused daily node crashes during testing and I do **not** recommend. This section should not be completed on your RPi. 
 
 ### Downloading the source
 * The following instructions are loosely based on this [MSDN post](https://blogs.msdn.microsoft.com/david/2017/07/20/setting_up_raspian_and_dotnet_core_2_0_on_a_raspberry_pi/)
