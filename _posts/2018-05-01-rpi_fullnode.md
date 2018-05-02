@@ -41,7 +41,7 @@ cd StratisFullNode
 ```
 * Follow the instructions [here](https://github.com/stratisproject/StratisBitcoinFullNode/blob/master/Documentation/getting-started.md)
 ```
-git clone https://github.com/stratisproject/StratisBitcoinFullNode.git`
+git clone https://github.com/stratisproject/StratisBitcoinFullNode.git
 cd StratisBitcoinFullNode
 git submodule update --init --recursive
 cd src
