@@ -127,7 +127,7 @@ If you don't plan on using RPC, make sure you follow the instructions from the [
 
 `sudo ufw deny 16174`
 
-If you use SSH to access your RPi, I highly recommend that you use [Screen](https://www.gnu.org/software/screen/manual/screen.html). Screen is a wonderful utility that will leave your session running when you disconnect from ssh. This is available via `sudo apt-get install screen` on your RPi. 
+If you use SSH to access your RPi, I highly recommend that you use [Screen](https://www.gnu.org/software/screen/manual/screen.html). Screen is a wonderful utility that will leave your session running when you disconnect from SSH. This is available via `sudo apt-get install screen` on your RPi. 
 
 To start a session, type:
 ```
