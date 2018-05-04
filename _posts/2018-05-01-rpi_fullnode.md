@@ -113,6 +113,7 @@ do
     truncate -s0 $OUTPUT_FILE
   elif [ $TIMEOUT_EXIT_CODE = 2 ]; then
     echo "Node is running. Re-poll in 60 seconds."
+    truncate -s0 $OUTPUT_FILE
     sleep 60
   fi
 done
