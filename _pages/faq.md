@@ -4,7 +4,7 @@ permalink: /faq/
 toc: true
 toc_label: "FAQ"
 toc_icon: "x"
-
+author_profile: false
 ---
 # Frequently Asked Questions
 

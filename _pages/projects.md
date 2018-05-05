@@ -1,6 +1,7 @@
 ---
 title: Projects
 permalink: /projects/
+author_profile: false
 ---
 
 # Active SDF Projects

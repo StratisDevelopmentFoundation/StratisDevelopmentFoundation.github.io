@@ -4,7 +4,7 @@ permalink: /bountyprocess/
 toc: true
 toc_label: "Bounty Process"
 toc_icon: "x"
-
+author_profile: false
 ---
 # Contributing to the SDF to receive bounties
 

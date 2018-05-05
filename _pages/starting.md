@@ -6,6 +6,7 @@ toc_label: "Getting Started"
 toc_icon: "x"
 sidebar:
   nav: "newdev"
+author_profile: false
 ---
 # Getting Started - Overview
 

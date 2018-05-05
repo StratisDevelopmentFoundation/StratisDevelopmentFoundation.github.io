@@ -108,6 +108,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
+  discord          : "https://discord.gg/99EX7d4"
   flickr           :
   facebook         :
   foursquare       :
@@ -119,11 +120,12 @@ author:
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
+  reddit           : "https://www.reddit.com/r/StratisDevFoundation/"
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "StratisDF"
   vine             :
   weibo            :
   xing             :

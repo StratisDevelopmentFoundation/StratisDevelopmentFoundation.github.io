@@ -1,6 +1,6 @@
 ---
 title:  "Add Coloured coin wallet feature"
-categories: coding bounties
+categories: coding inactive_bounties
 post_importance: 4
 bounty: 20
 ---

@@ -3,6 +3,7 @@ title: Code Samples
 permalink: /samples/
 sidebar:
   nav: "newdev"
+author_profile: false
 ---
 ## Stratis C# code samples
 

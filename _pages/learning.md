@@ -6,6 +6,7 @@ sidebar:
 toc: true
 toc_label: "Learning Resources"
 toc_icon: "x"
+author_profile: false
 ---
 # Learning Resources:
 

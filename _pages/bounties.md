@@ -6,6 +6,7 @@ toc_label: "Bounties"
 toc_icon: "x"
 sidebar:
   nav: "newdev"
+author_profile: false
 ---
 # Bounties
 
