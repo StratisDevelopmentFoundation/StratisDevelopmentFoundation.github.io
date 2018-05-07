@@ -8,10 +8,12 @@ main:
   #   url: /faq/
   # - title: "Quickstart"
   #   url: /starting/
-  - title: "Learning"
-    url: /learning/
   - title: "Bounties"
     url: /bounties/
+  - title: "Blog"
+    url: /blog/
+  - title: "Learning"
+    url: /learning/
   # - title: "Projects"
   #   url: /projects/
   # - title: "Sample Collections"
