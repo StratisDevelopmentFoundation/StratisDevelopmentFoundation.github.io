@@ -1,6 +1,6 @@
 ---
 title:  "Fee estimator improvements for Stratis Full Node"
-categories: bounties
+categories: bounties coding
 post_importance: 5
 bounty: 30
 ---
