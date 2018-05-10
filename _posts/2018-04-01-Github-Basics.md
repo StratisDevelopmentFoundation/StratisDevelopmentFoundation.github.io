@@ -38,7 +38,7 @@ You would do this process if you were working on one of the [bounties found here
    is a good explanation (Setting up Git chapter and the three steps below)
 
 ## Fork an SDF repo
-1. Navigate to the [SFD repository](https://github.com/StratisDevelopmentFoundation)
+1. Navigate to the [SDF repository](https://github.com/StratisDevelopmentFoundation)
 2. Click repository StratisDevelopmentFoundation.github.io
 3. Find *Fork* button and click it
 
