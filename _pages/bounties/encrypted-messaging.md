@@ -1,6 +1,6 @@
 ---
 title:  "Encrypted Messaging"
-categories: bounties coding
+categories: inactive_bounty coding
 post_importance: 2
 bounty: 50
 ---
