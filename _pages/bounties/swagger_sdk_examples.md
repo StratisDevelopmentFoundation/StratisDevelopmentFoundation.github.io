@@ -1,6 +1,6 @@
 ---
 title:  "Use Swagger.io to generate API clients in multiple languages"
-categories: bounties coding
+categories: inactive_bounty coding
 post_importance: 1
 bounty: 10
 ---
