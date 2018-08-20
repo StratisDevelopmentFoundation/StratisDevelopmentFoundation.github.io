@@ -10,6 +10,12 @@ author_profile: false
 ---
 # Learning Resources:
 
+## Possible Users and Lessons
+
+### [All lessons](/Lessons/)
+
+### [Possible Users](/PossibleUsersAuto/)
+
 ## Installation Instructions
 
 {% assign install_posts = site.posts | where: "categories","install" | sort: 'post_importance' %}
