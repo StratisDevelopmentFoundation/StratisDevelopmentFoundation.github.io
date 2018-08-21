@@ -1,52 +1,73 @@
 ---
-title: Protocol Registry
-permalink: /projects/protocol_registry/
-categories: inactive_projects
-short_overview: A second layer on top of the Stratis blockchain allowing for community created protocols and applications
+title: End to end blockchain web application
+permalink: /projects/E2EbcWebApp/
+categories: active_projects
+short_overview: A simple application to showcase the end to end infrastructure template for a blockchain web application
 ---
-# Protocol Registry
-
+# End to end blockchain web application
 ## Overview
-
-The Stratis team has created a blockchain and blockchain software that allows users of the software to move STRAT coins between addresses. In addition to this basic use of a blockchain, it is also possible to write arbitrary data to the blockchain.
-
-The benefit of writing data to the blockchain is that the data written is immutable (can't be changed) because all the other nodes in the system record the data. There is also the additional benefit that only users who can prove ownership of an address can make these writes to the blockchain, thereby adding an authentication mechanism that can be used to prove someone is who they say they are.
-
-If the data written follows a specific format (as specified by a protocol) and it is read by other clients that are aware of this protocol, then this allows for certain types of applications to be built.
-
-### An example protocol
-
-One simple example is a voting protocol. One client could write to the blockchain some text that looks like this:
-
-```
-Voting Protocol Version 1.0
-Question: What is the best flavor of ice cream?
-Answers:
-1 - Chocolate
-2 - Strawberry
-3 - Other (Specify)
-```
-
-Client software running on other computers that is aware of this voting protocol would be scanning for messages of this format in the blockchain. The user of that software would be notified of the vote, and they could write to the blockchain a response that would be seen by all users of the software. Their response might look like:
-
-```
-Voting Protocol Version 1.0
-Response to Question: What is the best flavor of ice cream?
-Answers: 3 - Other - Pineapple
-```
-
-Keep in mind that these example texts are human readable - In an actual implementation, these messages would be in a format that is much more compressed.
-
-The end result of this is that users would be able to conduct votes on the blockchain. In combination with other features of the blockchain, this could have many uses.
-
-However, there must be an agreed upon format for how the messages are written to the blockchain. This is the only way for software to be written in a way that allows for all users of the system to agree on what is and isn't a valid vote.
+Here at the Stratis development foundation…
+We are working to increase the community of developers building applications on the Stratis blockchain.
+The barrier of entry to developing an end to end blockchain application is high. 
+A developer must poses full stack coding, security, and blockchain technology skills. 
+We are planning to lower this barrier by providing developers with an end to end infrastructure template:
+    Secure full node
+    Web server for users
+    Back end data storage 
+    
+We're creating a simple application to showcase the template. 
+    It will use smart contracts for a simple case (that we will discuss in the discord)
+    By modifying or replacing the application, developers can make something new and useful. 
+    The infrastructure decisions are all ready made.
+This is important because most of the creativity and uses of the blockchain happen at the application level, not the infrastructure and back end. 
+By allowing developers to focus on the application level, developers can build something useful in a number of hours. 
+This is a way we can grow the number of useful applications on the Stratis network to meet our goal of 1000 useful apps.
+### Components of the application template 
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="2.0">
+<head>
+<title></title>
+<flavor>dynalist</flavor>
+<source>https://dynalist.io</source>
+<ownerName>oscar correa</ownerName>
+<ownerEmail>correa.oscar11@gmail.com</ownerEmail>
+</head>
+<body>
+<outline text="E2EbcApp specifications High Level">
+<outline text="Specs for end to end blockchain SC app">
+<outline text="Blockchain Explorer API" collapsed="true"/>
+<outline text="Stratis Full Node" collapsed="true"/>
+<outline text="Address Alias Web App" collapsed="true"/>
+<outline text="Alias app Smart Contract" collapsed="true"/>
+<outline text="Packaging" collapsed="true"/>
+</outline>
+</outline>
+</body>
+</opml>
+Blockchain explorer API
+Stratis Full Node
+Application logic Web app (Address alias)
+Application Smart contract (Alias app Smart contract)
+Packaging 
 
 ## Current Status
-
-An OP_RETURN block explorer API has been created to support these types of protocols. Beta versions of the first voting protocol has been deployed and tested on the Stratis main net. An API that shows the results of blockchain votes has been created as well. A beta version of an address JSON datastructure protocol has been created.
-
-More work is needed to integrate the OP_RETURN block explorer API into the Stratis Full Node, because right now it is external to the full node, which is not ideal. After that is complete, it needs to be dockerized and moved to an Azure template so that anyone can create their own.
+We are currently looking to engage the commmunity in the discord channel: #end2end-blockchain-application-template 
+To determine the best path to take. 
+We will be discussing topics from each component such as: 
+Infrastructure:
+What kind of stack should we use and why?
+Blockchain explorer API
+What features would be usefull in a blockchain explorer. 
+Stratis Full Node
+Best security practices
+Application logic Web app (Address alias)
+What should the focus of our sample app be? 
+Application Smart contract (Alias app Smart contract)
+How can we design the smart contract to best suit the application? 
+Packaging 
+How can we best package this application to make it easy for developers to change the application logic and make it their own. 
+## TimeLine
+###Get-er-DONE!!!
 
 ## How to contribute to this project
-
 This project is fairly complicated and is mostly undocumented at the moment. Join us on [Discord](/discord/) to contribute.
