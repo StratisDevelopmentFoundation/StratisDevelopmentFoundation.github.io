@@ -5,7 +5,7 @@ categories: active_projects
 short_overview: A simple application to showcase the end to end infrastructure template for a blockchain web application
 ---
 End to end blockchain web application
-======================================
+==
 
 Overview
 --
