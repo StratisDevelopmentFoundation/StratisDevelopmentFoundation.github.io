@@ -104,8 +104,8 @@ How can we design the smart contract to best suit the application?
 How can we best package this application to make it easy for developers to change the application logic and make it their own. 
 
 
-Timeline
-==
+## Timeline
+
   * This initiative is announced on **August 23**
   * Discussion about specifications is from **August 23-26**
   * Specifications are finalized by **August 27**
