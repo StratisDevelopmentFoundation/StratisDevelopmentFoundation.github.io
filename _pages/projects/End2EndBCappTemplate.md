@@ -101,7 +101,8 @@ What should the focus of our sample app be?
 How can we design the smart contract to best suit the application? 
 
 ### Packaging
-  How can we best package this application to make it easy for developers to change the application logic and make it their own.   
+
+   How can we best package this application to make it easy for developers to change the application logic and make it their own.   
 
 
 ## Timeline
