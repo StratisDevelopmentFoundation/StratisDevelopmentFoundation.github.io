@@ -100,6 +100,6 @@ Timeline
   * Developers begin work August 29
   * Estimated time to an MVP template: 2-3 weeks
 
- How to contribute to this project
- ==
+ #How to contribute to this project
+ 
 Join us on [Discord](/discord/) to contribute.
