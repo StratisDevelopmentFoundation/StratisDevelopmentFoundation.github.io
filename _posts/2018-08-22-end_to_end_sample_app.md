@@ -116,9 +116,9 @@ How can we best package this application to make it easy for developers to chang
 
 # How to contribute to this project
 
-Join us on [Discord](/discord/) to contribute.
+Join us on [Discord](/discord/) to contribute .
 
-Channel: #sample-app-template
+Channel: **#sample-app-template**
 
 
 
