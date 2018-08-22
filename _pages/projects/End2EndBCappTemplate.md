@@ -39,7 +39,7 @@ Application logic Web app
     Almost any useful blockchain app will need something similar - a website that presents what is happening on the blockchain in a way that makes sense for that particular app.
     This is where the majority of creativity from future app creators will happen. Users interact with the blockchain mainly through this site.
 Packaging
-    In order for app creators to make use of this template, they must be able to get it up and running locally on their computer so that they can edit the parts they way to modify.
+    In order for app creators to make use of this template, they must be able to get it up and running locally on their computer so that they can edit the parts they want to modify.
     Therefore, we need to provide excellent instructions on how to set up everything, and make the setup process as idiot proof as possible.
     Alternately, there may be some ways that we can package up the sample app in a way that is very easy to deploy, depending on what it is hosted on. For example, we could create some kind of Azure Cloud Server image. Investigation is needed on the best way to meet our goals.
 
