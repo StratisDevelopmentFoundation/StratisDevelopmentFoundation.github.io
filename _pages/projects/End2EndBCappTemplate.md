@@ -71,22 +71,22 @@ Current Status
 
 We will be discussing topics from each component such as:
 
-## Infrastructure:
+### Infrastructure:
 What kind of stack should we use and why?
 
-## Blockchain explorer API
+### Blockchain explorer API
 What features would be usefull in a blockchain explorer. 
 
-## Stratis Full Node
+### Stratis Full Node
 Best security practices
 
-## Application logic Web app
+### Application logic Web app
 What should the focus of our sample app be? 
 
-## Application Smart contract (Alias app Smart contract)
+### Application Smart contract (Alias app Smart contract)
 How can we design the smart contract to best suit the application? 
 
-## Packaging
+### Packaging
 How can we best package this application to make it easy for developers to change the application logic and make it their own. 
 
 
