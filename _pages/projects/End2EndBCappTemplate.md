@@ -16,7 +16,7 @@ Overview
 
 Here at the Stratis development foundation…
 
-We have set a goal to have 1000 useful applications running on the Stratis blockchain!
+We have set a goal to have **1000** useful applications running on the Stratis blockchain!
 
    However, the barrier of entry to developing an end to end blockchain application is high.
    A developer must possess full stack coding, security, and blockchain technology skills.  
