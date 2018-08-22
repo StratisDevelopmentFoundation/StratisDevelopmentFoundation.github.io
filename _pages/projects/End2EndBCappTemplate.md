@@ -74,7 +74,9 @@ In order for app creators to make use of this template, they must be able to get
     
 Therefore, we need to provide excellent instructions on how to set up everything, and make the setup process as idiot proof as possible.
     
-Alternately, there may be some ways that we can package up the sample app in a way that is very easy to deploy, depending on what it is hosted on. For example, we could create some kind of Azure Cloud Server image. Investigation is needed on the best way to meet our goals.
+Alternately, there may be some ways that we can package up the sample app in a way that is very easy to deploy, depending on what it is hosted on. 
+
+For example, we could create some kind of Azure Cloud Server image. Investigation is needed on the best way to meet our goals.
 
 Current Status
 ==
