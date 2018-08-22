@@ -30,7 +30,11 @@ We are making this easier by providing developers with an end to end infrastruct
 By modifying or replacing the application, developers can make something new and useful.  
 The infrastructure decisions are already made, so a full stack developer is not required.  
 
-This is important because most of the creativity and uses of the blockchain happen at the application level. By allowing developers to focus on the application instead of worrying about how to set up the infrastructure (servers and connections) around the application, developers can build something useful in a number of hours.  This is a way we can grow the number of useful applications on the Stratis network to meet our goal of 1000 useful apps.
+This is important because most of the creativity and uses of the blockchain happen at the application level. 
+
+By allowing developers to focus on the application instead of worrying about how to set up the infrastructure (servers and connections) around the application, developers can build something useful in a number of hours.  
+
+This is a way we can grow the number of useful applications on the Stratis network to meet our goal of 1000 useful apps.
 
 Components of the application template 
 ====
