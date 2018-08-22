@@ -106,13 +106,12 @@ How can we best package this application to make it easy for developers to chang
 
 Timeline
 ==
-  * This initiative is announced on August 23
-
-  * Discussion about specifications is from August 23-26
-  * Specifications are finalized by August 27
-  * Specifications are made as specific as possible and ready for developers to implement by August 29
-  * Developers begin work August 29
-  * Estimated time to an MVP template: 2-3 weeks
+  * This initiative is announced on **August 23**
+  * Discussion about specifications is from **August 23-26**
+  * Specifications are finalized by **August 27**
+  * Specifications are made as specific as possible and ready for developers to implement by **August 29**
+  * Developers begin work **August 29**
+  * Estimated time to an MVP template: **2-3 weeks**
 
 # How to contribute to this project
 
