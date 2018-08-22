@@ -117,7 +117,8 @@ Timeline
 # How to contribute to this project
 
 Join us on [Discord](/discord/) to contribute.
-  Channel: #sample-app-template.  
-    
+
+Channel: #sample-app-template
+
 
 
