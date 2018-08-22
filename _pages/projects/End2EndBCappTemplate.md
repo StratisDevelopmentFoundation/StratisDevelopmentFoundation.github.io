@@ -83,7 +83,7 @@ For example, we could create some kind of Azure Cloud Server image. Investigatio
 
 ## Current Status
 
-**Discussion** 
+## Discussion 
 
 How to implement this is taking place in the [Discord](/discord/) channel: #sample-app-template 
 
