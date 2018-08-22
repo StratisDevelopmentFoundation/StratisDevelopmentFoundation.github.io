@@ -71,7 +71,7 @@ Current Status
 We will be discussing topics from each component such as:
 
 ## Infrastructure:
-    What kind of stack should we use and why?
+What kind of stack should we use and why?
 
 ## Blockchain explorer API
     What features would be usefull in a blockchain explorer. 
@@ -84,7 +84,7 @@ We will be discussing topics from each component such as:
 
 ## Application Smart contract (Alias app Smart contract)
     How can we design the smart contract to best suit the application? 
-    
+
 ## Packaging
     How can we best package this application to make it easy for developers to change the application logic and make it their own. 
 
