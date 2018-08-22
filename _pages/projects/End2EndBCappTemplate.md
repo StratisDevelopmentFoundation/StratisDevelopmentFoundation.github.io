@@ -25,23 +25,33 @@ This is important because most of the creativity and uses of the blockchain happ
 
 ### Components of the application template 
 
-Stratis Full Node
-    This piece of software produced by the Stratis team is the core software that provides information about the blockchain, and allows transactions to be written to the blockchain.
-    While it is already a self contained system that is easy to install, we will provide additional information about how to configure it for security and usability
-Blockchain explorer API
-    This is a layer that sits on top of the Stratis Full Node and indexes as much information as possible about the blockchain. Then, when required by applications, it can answer complex questions about what is happening on the blockchain
-    This piece of software needs to be developed. We have created specifications for it but are still discussing the exact functionality with the developers who will build it
-Application Smart contract (Alias app Smart contract)
-    The Smart Contract is a piece of code that runs ON the blockchain, and decentralizes a certain useful component of the overall application.
-    In this case, the sample application is an app that allows Addresses on the blockchain to register an Alias, so that other people can send money to them by name instead of by address. While this seems trivial, it leads into a number of other interesting use cases, and provides a good sample application for other developers to modify and build on top of.
-Application logic Web app
-    This component is a web server and attached database that interacts with the other components. It provides an external web view of what the application is doing, and takes some interaction from users of the application.
-    Almost any useful blockchain app will need something similar - a website that presents what is happening on the blockchain in a way that makes sense for that particular app.
-    This is where the majority of creativity from future app creators will happen. Users interact with the blockchain mainly through this site.
-Packaging
-    In order for app creators to make use of this template, they must be able to get it up and running locally on their computer so that they can edit the parts they want to modify.
-    Therefore, we need to provide excellent instructions on how to set up everything, and make the setup process as idiot proof as possible.
-    Alternately, there may be some ways that we can package up the sample app in a way that is very easy to deploy, depending on what it is hosted on. For example, we could create some kind of Azure Cloud Server image. Investigation is needed on the best way to meet our goals.
+1. Stratis Full Node
+
+       This piece of software produced by the Stratis team is the core software that provides information about the blockchain, and allows transactions to be written to the blockchain.
+       While it is already a self contained system that is easy to install, we will provide additional information about how to configure it for security and usability
+2. Blockchain explorer API
+    
+       This is a layer that sits on top of the Stratis Full Node and indexes as much information as possible about the blockchain. Then, when required by applications, it can answer complex questions about what is happening on the blockchain
+       
+       This piece of software needs to be developed. We have created specifications for it but are still discussing the exact functionality with the developers who will build it
+3. Application Smart contract (Alias app Smart contract)
+       
+       The Smart Contract is a piece of code that runs ON the blockchain, and decentralizes a certain useful component of the overall application.
+       
+       In this case, the sample application is an app that allows Addresses on the blockchain to register an Alias, so that other people can send money to them by name instead of by address. While this seems trivial, it leads into a number of other interesting use cases, and provides a good sample application for other developers to modify and build on top of.
+4. Application logic Web app
+    
+       This component is a web server and attached database that interacts with the other components. It provides an external web view of what the application is doing, and takes some interaction from users of the application.
+    
+       Almost any useful blockchain app will need something similar - a website that presents what is happening on the blockchain in a way that makes sense for that particular app.
+       This is where the majority of creativity from future app creators will happen. Users interact with the blockchain mainly through this site.
+5. Packaging
+    
+       In order for app creators to make use of this template, they must be able to get it up and running locally on their computer so that they can edit the parts they want to modify.
+    
+       Therefore, we need to provide excellent instructions on how to set up everything, and make the setup process as idiot proof as possible.
+    
+       Alternately, there may be some ways that we can package up the sample app in a way that is very easy to deploy, depending on what it is hosted on. For example, we could create some kind of Azure Cloud Server image. Investigation is needed on the best way to meet our goals.
 
 ## Current Status
 
