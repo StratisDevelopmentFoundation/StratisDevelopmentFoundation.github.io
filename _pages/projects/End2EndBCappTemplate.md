@@ -65,7 +65,8 @@ While this seems trivial, it leads into a number of other interesting use cases,
 This component is a web server and attached database that interacts with the other components. It provides an external web view of what the application is doing, and takes some interaction from users of the application.
     
 Almost any useful blockchain app will need something similar - a website that presents what is happening on the blockchain in a way that makes sense for that particular app.
-    This is where the majority of creativity from future app creators will happen. Users interact with the blockchain mainly through this site.
+
+This is where the majority of creativity from future app creators will happen. Users interact with the blockchain mainly through this site.
 
 ## 5. Packaging
     
