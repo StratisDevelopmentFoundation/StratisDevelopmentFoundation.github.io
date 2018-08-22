@@ -56,7 +56,8 @@ This piece of software needs to be developed. We have created specifications for
 The Smart Contract is a piece of code that runs ON the blockchain, and decentralizes a certain useful component of the overall application.
        
 In this case, the sample application is an app that allows Addresses on the blockchain to register an Alias, so that other people can send money to them by name instead of by address. 
- While this seems trivial, it leads into a number of other interesting use cases, and provides a good sample application for other developers to modify and build on top of.  
+
+While this seems trivial, it leads into a number of other interesting use cases, and provides a good sample application for other developers to modify and build on top of.  
 
 
 ## 4. Application logic Web app
