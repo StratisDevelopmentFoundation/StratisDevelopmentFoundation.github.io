@@ -34,7 +34,7 @@ Components of the application template
 
 ### 1. Stratis Full Node
 This piece of software produced by the Stratis team is the core software that provides information about the blockchain, and allows transactions to be written to the blockchain.
-    
+
 While it is already a self contained system that is easy to install, we will provide additional information about how to configure it for security and usability
 ## 2. Blockchain explorer API
     
