@@ -47,7 +47,8 @@ While it is already a self contained system that is easy to install, we will pro
 
 ## 2. Blockchain explorer API
     
-This is a layer that sits on top of the Stratis Full Node and indexes as much information as possible about the blockchain. Then, when required by applications, it can answer complex questions about what is happening on the blockchain
+This is a layer that sits on top of the Stratis Full Node and indexes as much information as possible about the blockchain.  
+Then, when required by applications, it can answer complex questions about what is happening on the blockchain.  
        
 This piece of software needs to be developed. We have created specifications for it but are still discussing the exact functionality with the developers who will build it
 ## 3. Application Smart contract (Alias app Smart contract)
