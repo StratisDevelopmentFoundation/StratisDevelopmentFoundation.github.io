@@ -80,7 +80,9 @@ For example, we could create some kind of Azure Cloud Server image. Investigatio
 
 ## Current Status
 
-**Discussion** about how to implement this is taking place in the [Discord](/discord/) channel: #sample-app-template 
+**Discussion** 
+
+How to implement this is taking place in the [Discord](/discord/) channel: #sample-app-template 
 
 We will be discussing topics from each component such as:
 
