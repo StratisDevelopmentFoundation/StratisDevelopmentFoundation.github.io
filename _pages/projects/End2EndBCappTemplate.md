@@ -39,8 +39,8 @@ By allowing developers to focus on the application instead of worrying about how
 
 This is a way we can grow the number of useful applications on the Stratis network to meet our goal of 1000 useful apps.
 
-Components of the application template 
-====
+## Components of the application template 
+
 
 ## 1. Stratis Full Node
 
